@@ -131,3 +131,8 @@ nav
     background-color: #b74b4b;
     color: black;
 }
+
+.contatos
+{
+    flex-basis: 100%;
+}
