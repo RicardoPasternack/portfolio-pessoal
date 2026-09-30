@@ -139,3 +139,17 @@ nav
 {
     flex-basis: 100%;
 }
+
+@media (max-width: 600px)
+{
+    .apresentacao h1
+    {
+        font-size: 36px;
+    }
+
+    .foto-perfil
+    {
+        width: 220px;
+        margin-inline: auto;
+    }
+}
