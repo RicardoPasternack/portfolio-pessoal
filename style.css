@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     display: flex;
@@ -142,6 +147,15 @@ nav
 .contatos
 {
     flex-basis: 100%;
+}
+
+footer
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px 8%;
+    text-align: center;
+    color: #bdbdbd;
 }
 
 @media (max-width: 600px)

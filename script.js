@@ -18,3 +18,7 @@ function alternarDetalhes()
 }
 
 botaoDetalhes.addEventListener("click", alternarDetalhes);
+
+const anoAtual = document.querySelector("#ano-atual");
+
+anoAtual.textContent = new Date().getFullYear();
