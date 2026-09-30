@@ -51,6 +51,8 @@ header
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .logo
@@ -91,6 +93,7 @@ nav
 {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .projeto
