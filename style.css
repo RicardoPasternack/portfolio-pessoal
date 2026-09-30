@@ -1,0 +1,133 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+main
+{
+    padding: 48px 8%;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    flex-wrap: wrap;
+    align-self: stretch;
+}
+
+.apresentacao
+{
+    flex: 1 300px;
+
+    h1
+    {
+        font-size: 48px;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    h1 span
+    {
+        color: #b74b4b;
+    }
+
+    .descricao
+    {
+        color: #bdbdbd;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+}
+
+header
+{
+    padding: 24px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.logo
+{
+    color: #b74b4b;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+    transition: color   0.2s;
+}
+
+nav a:hover,
+nav a:focus-visible
+{
+    color: #b74b4b;
+}
+
+.foto-perfil
+{
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 25px #b74b4b;
+}
+
+.projetos
+{
+    flex-basis: 100%;
+}
+
+nav
+{
+    display: flex;
+    gap: 24px;
+}
+
+.projeto
+{
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 24px;
+
+    h3
+    {
+        margin-top: 0;
+        color: #b74b4b;
+    }
+
+    p
+    {
+        color: #bdbdbd;
+        line-height: 1.6;
+    }
+}
+
+.botao
+{
+    display: inline-block;
+    padding: 12px 24px;
+    border: 2px solid #b74b4b;
+    border-radius: 30px;
+    color: #b74b4b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.botao:hover,
+.botao:focus-visible
+{
+    background-color: #b74b4b;
+    color: black;
+}
