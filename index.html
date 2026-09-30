@@ -10,6 +10,7 @@
         Conheça meus projetos e acesse meu perfil no GitHub."
     >
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -29,6 +30,7 @@
         src="imagens/logo.png"
         alt="Avatar ilustrado"
         >
+        
 
         <div class="apresentacao">
             <h1>Olá eu sou o <span>Ricardo Pasternack</span></h1>
@@ -44,12 +46,27 @@
             <article class="projeto">
                 <h3>Portfólio pessoal</h3>
 
+                <button
+                    type="button"
+                    class="botao"
+                    id="alternar-detalhes"
+                    aria-expanded="false"
+                    aria-controls="detalhes-projeto"
+                >
+                    Mostrar detalhes
+                </button>
+
+                <p id="detalhes-projeto" hidden>
+                    Neste projeto, apliquei HTML semântico, Flexbox,
+                    adaptação para telas pequenas e eventos com JavaScript.
+                </p>
+
                 <p>
                     Site de apresentação profissional com layout adaptável
                     para diferentes tamanhos de tela.
                 </p>
 
-                <p>HTML e CSS</p>
+                <p>HTML CSS JavaScript</p>
                 <a
                     class="botao"
                     href="https://github.com/RicardoPasternack/portfolio-pessoal"

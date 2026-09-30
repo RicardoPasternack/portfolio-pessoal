@@ -126,6 +126,10 @@ nav
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.2s, color 0.2s;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .botao:hover,
