@@ -90,3 +90,14 @@ function atualizarLinkAtivo()
 window.addEventListener("scroll", atualizarLinkAtivo);
 
 atualizarLinkAtivo();
+
+const botaoVoltarTopo = document.querySelector("#voltar-topo");
+
+function atualizarBotaoVoltarTopo()
+{
+    botaoVoltarTopo.hidden = window.scrollY < 400;
+}
+
+window.addEventListener("scroll", atualizarBotaoVoltarTopo);
+
+atualizarBotaoVoltarTopo();

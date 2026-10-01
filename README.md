@@ -32,6 +32,7 @@ Site de apresentação profissional e exposição de projetos.
 - Acessibilidade de movimento com prefers-reduced-motion.
 - Metadados para mecanismos de busca e compartilhamento com canonical, Open Graph e Twitter Cards.
 - Destaque da seção atual durante a rolagem com scrollY, offsetTop e aria-current.
+- Botão de retorno ao início controlado pela posição da rolagem com scrollY e hidden.
 
 ## Como visualizar
 
