@@ -23,6 +23,10 @@ Site de apresentação profissional e exposição de projetos.
 - Media query para adaptação em telas de até 600 pixels.
 - Links externos em novas abas com target e rel.
 - Ano atualizado automaticamente com Date e getFullYear.
+- Variáveis CSS para centralizar as cores do site.
+- Alternância entre tema claro e escuro usando classList.
+- Armazenamento da preferência de tema com localStorage.
+- Atualização de aria-pressed para informar o estado do botão de tema.
 
 ## Como visualizar
 
@@ -35,3 +39,5 @@ Para visualizar localmente, abra o arquivo index.html em um navegador.
 ## Verificação
 Layout conferido manualmente em janela larga e estreita.
 Botão de detalhes testado com mouse e teclado.
+Alternância entre os temas claro e escuro testada.
+Preferência de tema mantida após recarregar a página.
