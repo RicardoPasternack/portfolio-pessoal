@@ -30,6 +30,7 @@ Site de apresentação profissional e exposição de projetos.
 - Cabeçalho mantido durante a rolagem com position: sticky.
 - Compensação dos links internos com scroll-padding-top.
 - Acessibilidade de movimento com prefers-reduced-motion.
+- Metadados para mecanismos de busca e compartilhamento com canonical, Open Graph e Twitter Cards.
 
 ## Como visualizar
 
