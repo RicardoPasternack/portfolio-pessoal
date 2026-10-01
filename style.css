@@ -135,6 +135,13 @@ nav
     border-color: #b74b4b;
 }
 
+.acoes-projeto
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
 .botao
 {
     display: inline-block;
