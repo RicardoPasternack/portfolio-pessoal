@@ -113,6 +113,7 @@ nav
     border: 1px solid #333;
     border-radius: 12px;
     padding: 24px;
+    transition: transform 0.2s, border-color 0.2s;
 
     h3
     {
@@ -125,6 +126,13 @@ nav
         color: #bdbdbd;
         line-height: 1.6;
     }
+}
+
+.projeto:hover,
+.projeto:focus-within
+{
+    transform: translateY(-4px);
+    border-color: #b74b4b;
 }
 
 .botao
@@ -176,4 +184,15 @@ footer
         width: 220px;
         margin-inline: auto;
     }
+}
+
+.status
+{
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background-color: #2a1a1a;
+    color: #e57373;
+    font-size: 14px;
+    font-weight: bold;
 }
