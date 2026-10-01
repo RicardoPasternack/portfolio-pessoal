@@ -27,6 +27,9 @@ Site de apresentação profissional e exposição de projetos.
 - Alternância entre tema claro e escuro usando classList.
 - Armazenamento da preferência de tema com localStorage.
 - Atualização de aria-pressed para informar o estado do botão de tema.
+- Cabeçalho mantido durante a rolagem com position: sticky.
+- Compensação dos links internos com scroll-padding-top.
+- Acessibilidade de movimento com prefers-reduced-motion.
 
 ## Como visualizar
 

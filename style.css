@@ -200,6 +200,16 @@ nav
 .contatos
 {
     flex-basis: 100%;
+    padding: 24px 0 48px;
+}
+
+.descricao-contato
+{
+    max-width: 600px;
+    color: var(--cor-texto-secundario);
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 0 24px;
 }
 
 footer
@@ -209,6 +219,14 @@ footer
     padding: 24px 8%;
     text-align: center;
     color: var(--cor-texto-secundario);
+    background-color: var(--cor-superficie);
+    border-top: 1px solid var(--cor-borda);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+footer p
+{
+    margin: 0;
 }
 
 @media (max-width: 600px)
@@ -288,4 +306,29 @@ footer
     background-color: var(--cor-superficie);
     color: var(--cor-destaque);
     font-weight: bold;
+}
+
+@media (prefers-reduced-motion: reduce)
+{
+    html
+    {
+        scroll-behavior: auto;
+    }
+
+    body,
+    header,
+    footer,
+    nav a,
+    .projeto,
+    .botao,
+    .botao-tema
+    {
+        transition: none;
+    }
+
+    .projeto:hover,
+    .projeto:focus-within
+    {
+        transform: none;
+    }
 }
