@@ -261,3 +261,23 @@ footer
     line-height: 1.7;
     margin-bottom: 0;
 }
+
+.lista-tecnologias
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 0;
+}
+
+.lista-tecnologias li
+{
+    padding: 8px 14px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 20px;
+    background-color: var(--cor-superficie);
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
