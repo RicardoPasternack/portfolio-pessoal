@@ -131,6 +131,40 @@ nav a[aria-current="location"]
     flex-basis: 100%;
 }
 
+.filtros-projetos
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0 0 24px;
+}
+
+.filtro-projeto
+{
+    padding: 8px 14px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--cor-texto);
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filtro-projeto:hover,
+.filtro-projeto:focus-visible
+{
+    color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+}
+
+.filtro-projeto[aria-pressed="true"]
+{
+    background-color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+    color: black;
+}
+
 nav
 {
     display: flex;

@@ -101,3 +101,40 @@ function atualizarBotaoVoltarTopo()
 window.addEventListener("scroll", atualizarBotaoVoltarTopo);
 
 atualizarBotaoVoltarTopo();
+
+const botoesFiltroProjetos =
+    document.querySelectorAll(".filtro-projeto");
+
+const cartoesProjetos =
+    document.querySelectorAll(".projeto");
+
+function filtrarProjetos(evento)
+{
+    const filtroSelecionado =
+        evento.currentTarget.dataset.filtro;
+
+    botoesFiltroProjetos.forEach(function (botao)
+    {
+        const botaoSelecionado =
+            botao === evento.currentTarget;
+
+        botao.setAttribute(
+            "aria-pressed",
+            botaoSelecionado
+        );
+    });
+
+    cartoesProjetos.forEach(function (cartao)
+    {
+        const mostrarCartao =
+            filtroSelecionado === "todos" ||
+            cartao.dataset.status === filtroSelecionado;
+
+        cartao.hidden = mostrarCartao === false;
+    });
+}
+
+botoesFiltroProjetos.forEach(function (botao)
+{
+    botao.addEventListener("click", filtrarProjetos);
+});

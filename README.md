@@ -33,6 +33,7 @@ Site de apresentação profissional e exposição de projetos.
 - Metadados para mecanismos de busca e compartilhamento com canonical, Open Graph e Twitter Cards.
 - Destaque da seção atual durante a rolagem com scrollY, offsetTop e aria-current.
 - Botão de retorno ao início controlado pela posição da rolagem com scrollY e hidden.
+- Filtragem de projetos com atributos data, dataset, NodeList e forEach.
 
 ## Como visualizar
 
@@ -47,3 +48,4 @@ Layout conferido manualmente em janela larga e estreita.
 Botão de detalhes testado com mouse e teclado.
 Alternância entre os temas claro e escuro testada.
 Preferência de tema mantida após recarregar a página.
+Filtros de projetos testados com mouse e teclado.

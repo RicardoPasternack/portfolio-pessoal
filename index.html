@@ -6,7 +6,7 @@
     <title>Ricardo Pasternack | Portfólio</title>
     <meta
         name="description"
-        content="Portfólio de Ricardo Pasternack. 
+        content="Portfólio de Ricardo Pasternack.
         Conheça meus projetos e acesse meu perfil no GitHub."
     >
     <meta name="author" content="Ricardo Pasternack">
@@ -96,11 +96,11 @@
         src="imagens/logo.png"
         alt="Avatar ilustrado"
         >
-        
+
 
         <div class="apresentacao">
             <h1>Olá eu sou o <span>Ricardo Pasternack</span></h1>
-        
+
             <p class="descricao">
                 Tecnologia e organização para simplificar o dia a dia.
             </p>
@@ -127,9 +127,41 @@
 
         <section id="projetos" class="projetos">
             <h2>Projetos</h2>
+            <div
+                class="filtros-projetos"
+                role="group"
+                aria-label="Filtrar projetos"
+            >
+                <button
+                    type="button"
+                    class="filtro-projeto"
+                    data-filtro="todos"
+                    aria-pressed="true"
+                >
+                    Todos
+                </button>
+
+                <button
+                    type="button"
+                    class="filtro-projeto"
+                    data-filtro="publicado"
+                    aria-pressed="false"
+                >
+                    Publicados
+                </button>
+
+                <button
+                    type="button"
+                    class="filtro-projeto"
+                    data-filtro="desenvolvimento"
+                    aria-pressed="false"
+                >
+                    Em desenvolvimento
+                </button>
+            </div>
 
             <div class="lista-projetos">
-                <article class="projeto">
+                <article class="projeto" data-status="publicado">
                     <h3>Portfólio pessoal</h3>
 
                     <button
@@ -175,7 +207,7 @@
                     </div>
                 </article>
 
-                <article class="projeto">
+                <article class="projeto" data-status="desenvolvimento">
                     <h3>Painel corporativo</h3>
 
                     <p>
@@ -184,7 +216,7 @@
 
                     <p>HTML, CSS e JavaScript</p>
 
-                    <p class="status">Em desenvolvimento</p>                    
+                    <p class="status">Em desenvolvimento</p>
                 </article>
             </div>
         </section>
