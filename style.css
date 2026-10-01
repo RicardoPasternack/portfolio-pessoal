@@ -246,3 +246,18 @@ footer
     color: var(--cor-destaque);
     border-color: var(--cor-destaque);
 }
+
+.sobre
+{
+    flex-basis: 100%;
+    padding: 24px 0;
+}
+
+.sobre p
+{
+    max-width: 700px;
+    color: var(--cor-texto-secundario);
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
