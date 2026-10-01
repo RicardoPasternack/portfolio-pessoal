@@ -53,3 +53,40 @@ function alternarTema()
 }
 
 botaoTema.addEventListener("click", alternarTema);
+
+const linksNavegacao = document.querySelectorAll('nav a[href^="#"]');
+const secoesNavegacao = document.querySelectorAll("main section[id]");
+
+function atualizarLinkAtivo()
+{
+    let idSecaoAtual = "inicio";
+
+    secoesNavegacao.forEach(function (secao)
+    {
+        const limiteSecao = secao.offsetTop - 160;
+
+        if (window.scrollY >= limiteSecao)
+        {
+            idSecaoAtual = secao.id;
+        }
+    });
+
+    linksNavegacao.forEach(function (link)
+    {
+        const linkRepresentaSecao =
+            link.getAttribute("href") === "#" + idSecaoAtual;
+
+        if (linkRepresentaSecao === true)
+        {
+            link.setAttribute("aria-current", "location");
+        }
+        else
+        {
+            link.removeAttribute("aria-current");
+        }
+    });
+}
+
+window.addEventListener("scroll", atualizarLinkAtivo);
+
+atualizarLinkAtivo();

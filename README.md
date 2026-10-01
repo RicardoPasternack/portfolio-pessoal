@@ -31,6 +31,7 @@ Site de apresentação profissional e exposição de projetos.
 - Compensação dos links internos com scroll-padding-top.
 - Acessibilidade de movimento com prefers-reduced-motion.
 - Metadados para mecanismos de busca e compartilhamento com canonical, Open Graph e Twitter Cards.
+- Destaque da seção atual durante a rolagem com scrollY, offsetTop e aria-current.
 
 ## Como visualizar
 
