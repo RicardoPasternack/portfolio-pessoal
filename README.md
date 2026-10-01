@@ -19,9 +19,18 @@ Site de apresentação profissional e exposição de projetos.
 - Condições com if/else e valores booleanos.
 - Exibição e ocultação de conteúdo com hidden.
 - Atualização de aria-expanded para informar o estado do botão.
+- Organização dos cartões com CSS Grid, auto-fit e minmax.
+- Media query para adaptação em telas de até 600 pixels.
+- Links externos em novas abas com target e rel.
+- Ano atualizado automaticamente com Date e getFullYear.
 
 ## Como visualizar
-Abra o arquivo index.html em um navegador.
+
+Acesse o site publicado:
+
+https://ricardopasternack.github.io/portfolio-pessoal/
+
+Para visualizar localmente, abra o arquivo index.html em um navegador.
 
 ## Verificação
 Layout conferido manualmente em janela larga e estreita.
