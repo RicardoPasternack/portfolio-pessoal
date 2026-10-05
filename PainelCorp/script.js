@@ -113,28 +113,37 @@ function renderizar() {
     $('periodo-resumo').textContent=dataBR(r.inicio)+' — '+dataBR(r.fim);
     $('nota-saldo').textContent=`Backlog inicial: ${exibir(r.inicial)} + vendas líquidas: ${exibir(r.liquidas)} − instalações: ${exibir(r.instalacoes)} = ${exibir(r.backlog)} pendentes. Ritmo: ${decimal.format(r.ritmo)} instalações por dia corrido.`;
     tabela('Regiao','linhas-regioes',f);tabela('Empresa','linhas-empresas',f);
-    $('total-regioes').replaceChildren();linhaTabela($('total-regioes'),'Total do recorte',r);
+    const abrangencia=['Diretoria','Empresa','Regiao'].filter(campo=>f[campo]).map(campo=>nomeDimensao(campo,f[campo])).join(' · ')||'Grande São Paulo';
+    $('total-regioes').replaceChildren();linhaTabela($('total-regioes'),abrangencia,r);
+    $('abrangencia-grafico').textContent=`${abrangencia} · ${exibir(r.liquidas)} vendas líquidas · ${exibir(r.instalacoes)} instalações`;
     desenharGrafico(ModeloPainel.serie(bases,f));
     $('status').className='';$('status').textContent=`Dados até ${dataBR(r.corte)}. Filtros aplicados a todos os indicadores.`;
     if(!r.brutas&&!r.cancelamentos&&!r.instalacoes)$('status').textContent+=' Sem movimentação neste período.';
+}
+async function lerJSON(caminho) {
+    let resposta;
+    try { resposta=await fetch(caminho); }
+    catch { throw Error('Não foi possível acessar '+caminho+'. Confira a conexão e abra o painel pelo site publicado ou Live Server.'); }
+    if(!resposta.ok)throw Error('Arquivo indisponível: '+caminho+' (HTTP '+resposta.status+').');
+    return resposta.json();
 }
 async function carregarDados() {
     try {
         $('status').className='';$('status').textContent='Carregando as bases…';$('tentar').hidden=true;
         // API local quando disponivel; Live Server e hospedagem estatica usam os JSONs.
+        if(typeof location!=='undefined'&&location.protocol==='file:')throw Error('O painel foi aberto como arquivo. Use o link publicado no portfólio ou Open with Live Server.');
         let resposta;
-        try {resposta=await fetch('./api/dados');}catch {}
+        const local=typeof location==='undefined'||['localhost','127.0.0.1'].includes(location.hostname);
+        if(local){try {resposta=await fetch('./api/dados');}catch {}}
         if(resposta?.ok&&resposta.headers.get('content-type')?.includes('application/json')){bases=await resposta.json();fonte='API local · SQLite';}
         else {
             const nomes=['vendas','cancelamentos','instalacoes','metas','backlog'];
-            const registros=await Promise.all(nomes.map(async nome=>{const r=await fetch(`./dados/${nome}.json`);if(!r.ok)throw Error('Falha na base '+nome);return r.json();}));
-            bases=Object.fromEntries(nomes.map((nome,i)=>[nome,registros[i]]));fonte='Arquivos JSON locais';
+            const registros=await Promise.all(nomes.map(nome=>lerJSON(`./dados/${nome}.json`)));
+            bases=Object.fromEntries(nomes.map((nome,i)=>[nome,registros[i]]));fonte='Dados publicados · JSON';
         }
         for(const nome of ['vendas','cancelamentos','instalacoes','metas','backlog'])if(!Array.isArray(bases[nome]))throw Error('Base ausente: '+nome);
         if(!bases.vendas.length||!bases.backlog.length)throw Error('A base de vendas ou as datas de corte estão vazias.');
-        const respostaDimensoes=await fetch('./dados/dimensoes.json');
-        if(!respostaDimensoes.ok)throw Error('Não foi possível carregar os nomes das regiões.');
-        dimensoes=await respostaDimensoes.json();
+        dimensoes=await lerJSON('./dados/dimensoes.json');
         const meses=[...new Set(bases.vendas.map(r=>ModeloPainel.dataISO(r.Data_Ref).slice(0,7)))].sort();
         preencherOpcoes('mes',meses);$('mes').value=meses.at(-1);
         preencherOpcoes('Diretoria',ModeloPainel.opcoes(bases,{},'Diretoria'),'Todas');atualizarFiltros();
@@ -163,6 +172,8 @@ $('alternar-regioes').addEventListener('click',()=>{
     $('alternar-regioes').textContent=tabela.hidden?'Mostrar regiões':'Ocultar regiões';
 });
 carregarDados();
+
+
 
 
 
