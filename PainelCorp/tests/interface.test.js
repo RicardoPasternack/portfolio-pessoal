@@ -19,7 +19,7 @@ async function testar(api,publicado=false) {
  elements['alternar-regioes'].handlers.click();assert.equal(elements['tabela-regioes'].hidden,true);
  elements['alternar-regioes'].handlers.click();assert.equal(elements['tabela-regioes'].hidden,false);
  elements.Diretoria.value='Dir.1';elements.Diretoria.handlers.change();assert.ok(elements['linhas-regioes'].children.length<11);
- elements.mes.value='2025-07';elements.mes.handlers.change();assert.equal(elements.meta.textContent,'—');
+ elements.mes.value='2025-07';elements.mes.handlers.change();assert.notEqual(elements.meta.textContent,'—');dados.metas=[];await context.carregarDados();elements.mes.handlers.change();assert.equal(elements.meta.textContent,'—');
  console.log('PASS: interface por '+(api?'API':'JSON')+', cards, 11 regioes, grafico, filtro e meta ausente.');
 }
 (async()=>{await testar(true);await testar(false);await testar(false,true);})();

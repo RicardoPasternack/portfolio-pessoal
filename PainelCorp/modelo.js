@@ -37,9 +37,11 @@
         const meta=metas.length?metas.reduce((s,r)=>s+r.Meta_Quantidade,0):null;
         const dias=Math.max(0,Math.round((Date.parse(p.fim)-Date.parse(p.inicio))/86400000)+1);
         const ritmo=dias?instalacoes/dias:0;
+        const prazos=prazoPedido(bases,filtros,p.inicio,p.fim);
+
         return {...p,brutas,cancelamentos,instalacoes,liquidas,inicial,backlog,meta,
             atingimento:meta>0?liquidas/meta*100:null,saldo:liquidas-instalacoes,
-            diasBacklog:backlog===0?0:ritmo>0?backlog/ritmo:null,dias,ritmo};
+            diasBacklog:prazos.dias,diasParaZerar:backlog===0?0:ritmo>0?backlog/ritmo:null,dias,ritmo};
     }
     function serie(bases,filtros) {
         const p=periodo(bases,filtros.mes), dias=new Map();
@@ -52,6 +54,16 @@
     function opcoes(bases,filtros,campo) {
         return [...new Set(bases.vendas.filter(r=>combina(r,filtros)).map(r=>r[campo]))].sort((a,b)=>a.localeCompare(b,'pt-BR',{numeric:true}));
     }
-    const api={dataISO,quantidade,combina,periodo,calcular,serie,opcoes};
+    function prazoPedido(bases,filtros,inicio,fim){
+        const pedidos=new Map(bases.vendas.map(v=>[v.ID_Pedido,v])),vistos=new Set(),duracoes=[];
+        const instante=v=>Date.parse(dataISO(v)+'T'+(v.split(' ')[1]||'00:00')+':00Z');
+        for(const r of bases.instalacoes){
+            const dia=dataISO(r.Data_Encerramento);if(!combina(r,filtros)||dia<inicio||dia>fim||vistos.has(r.ID_Pedido))continue;
+            vistos.add(r.ID_Pedido);const pedido=pedidos.get(r.ID_Pedido);if(!pedido)continue;
+            try{const duracao=(instante(r.Data_Encerramento)-instante(pedido.Data_Ref))/86400000;if(Number.isFinite(duracao)&&duracao>=0)duracoes.push(duracao);}catch{}
+        }
+        return {pedidos:duracoes.length,dias:duracoes.length?duracoes.reduce((s,d)=>s+d,0)/duracoes.length:null};
+    }
+    const api={dataISO,quantidade,combina,periodo,calcular,serie,opcoes,prazoPedido};
     if(typeof module!=='undefined'&&module.exports) module.exports=api; else global.ModeloPainel=api;
 })(typeof globalThis!=='undefined'?globalThis:this);

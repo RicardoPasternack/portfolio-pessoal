@@ -4,6 +4,7 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Painel de Vendas e Instalações</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="analise.css"><script src="navegacao.js" defer></script>
 <script src="cenario.js" defer></script><script src="modelo.js" defer></script><script src="script.js" defer></script>
 </head>
 <body>
@@ -12,7 +13,7 @@
 <a class="pular" href="#conteudo">Pular para os indicadores</a>
 <header class="cabecalho">
   <a class="marca" href="#">RP <span>INTELIGÊNCIA OPERACIONAL</span></a>
-  <div class="acoes"><button id="trocar-fundo" type="button">Escolher foto de fundo</button><button id="remover-fundo" type="button" hidden>Remover foto</button><input id="foto-fundo" type="file" accept="image/jpeg,image/png,image/webp" hidden></div>
+  <details class="menu-paineis"><summary>Menu</summary><nav aria-label="Painéis"><a href="Index.html" aria-current="page">Visão geral</a><a href="analise.html?tela=vendas" data-analise="vendas">Vendas e Metas</a><a href="analise.html?tela=cancelamentos" data-analise="cancelamentos">Cancelamentos</a><a href="analise.html?tela=instalacoes" data-analise="instalacoes">Instalações</a><a href="analise.html?tela=backlog" data-analise="backlog">Backlog e Estoque</a><div class="acoes"><button id="trocar-fundo" type="button">Escolher foto de fundo</button><button id="remover-fundo" type="button" hidden>Remover foto</button><input id="foto-fundo" type="file" accept="image/jpeg,image/png,image/webp" hidden></div></nav></details>
 </header>
 <main id="conteudo">
 <section class="abertura"><div><h1>Painel de Vendas e Instalações</h1></div><div class="selo"><span class="ponto"></span>Base simulada<span id="fonte">Carregando dados…</span></div></section>
@@ -37,7 +38,7 @@
 <article class="indicador destaque"><h3>Instalações</h3><p class="valor-indicador" id="instalacoes">—</p><small>Pela data de conclusão</small></article>
 <article class="indicador"><h3>Dias de estoque</h3><p class="valor-indicador" id="dias-estoque">—</p><small>Ritmo atual, sem novas entradas</small></article>
 </div>
-<p class="nota" id="nota-saldo"></p>
+
 </section>
 <section class="regioes" aria-labelledby="Titulo-Regioes">
 <div class="titulo-secao"><h2 id="Titulo-Regioes">Resultados por região</h2><button id="alternar-regioes" type="button" aria-expanded="true" aria-controls="tabela-regioes">Ocultar regiões</button></div>
@@ -53,13 +54,3 @@
 
 </main><footer>Ricardo Pasternack <span>Dados demonstrativos · Operação até outubro de 2025</span></footer>
 </body></html>
-
-
-
-
-
-
-
-
-
-

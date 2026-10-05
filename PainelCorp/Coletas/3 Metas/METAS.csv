@@ -1,4 +1,37 @@
 ﻿Mes_Referencia|Diretoria|Empresa|Regiao|Produto|Indicador|Media_Mensal_Base|Margem_Percentual|Meta_Quantidade|Periodo_Base|Simulado
+07/2025|Dir.1|Empresa 1|Reg 1|Prod 1|Produtos vendidos|0|0|10|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 1|Reg 1|Prod 2|Produtos vendidos|0|0|12|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 1|Reg 1|Prod 3|Produtos vendidos|0|0|15|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 1|Reg 2|Prod 1|Produtos vendidos|0|0|12|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 1|Reg 2|Prod 2|Produtos vendidos|0|0|11|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 1|Reg 2|Prod 3|Produtos vendidos|0|0|12|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 2|Reg 3|Prod 1|Produtos vendidos|0|0|12|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 2|Reg 3|Prod 2|Produtos vendidos|0|0|13|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 2|Reg 3|Prod 3|Produtos vendidos|0|0|16|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 2|Reg 5|Prod 1|Produtos vendidos|0|0|10|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 2|Reg 5|Prod 2|Produtos vendidos|0|0|12|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 2|Reg 5|Prod 3|Produtos vendidos|0|0|14|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 2|Reg 6|Prod 1|Produtos vendidos|0|0|8|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 2|Reg 6|Prod 2|Produtos vendidos|0|0|12|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 2|Reg 6|Prod 3|Produtos vendidos|0|0|15|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 3|Reg 4|Prod 1|Produtos vendidos|0|0|10|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 3|Reg 4|Prod 2|Produtos vendidos|0|0|13|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.1|Empresa 3|Reg 4|Prod 3|Produtos vendidos|0|0|17|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 2|Reg 7|Prod 1|Produtos vendidos|0|0|11|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 2|Reg 7|Prod 2|Produtos vendidos|0|0|13|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 2|Reg 7|Prod 3|Produtos vendidos|0|0|17|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 2|Reg 8|Prod 1|Produtos vendidos|0|0|7|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 2|Reg 8|Prod 2|Produtos vendidos|0|0|14|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 2|Reg 8|Prod 3|Produtos vendidos|0|0|14|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 3|Reg 10|Prod 1|Produtos vendidos|0|0|9|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 3|Reg 10|Prod 2|Produtos vendidos|0|0|12|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 3|Reg 10|Prod 3|Produtos vendidos|0|0|13|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 3|Reg 11|Prod 1|Produtos vendidos|0|0|19|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 3|Reg 11|Prod 2|Produtos vendidos|0|0|25|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 3|Reg 11|Prod 3|Produtos vendidos|0|0|29|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 3|Reg 9|Prod 1|Produtos vendidos|0|0|9|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 3|Reg 9|Prod 2|Produtos vendidos|0|0|15|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
+07/2025|Dir.2|Empresa 3|Reg 9|Prod 3|Produtos vendidos|0|0|19|Meta inicial de cenario; rateio proporcional a 08/2025|Sim
 08/2025|Dir.1|Empresa 1|Reg 1|Prod 1|Produtos vendidos|9,67|5|10|07/2025 a 09/2025|Sim
 08/2025|Dir.1|Empresa 1|Reg 1|Prod 2|Produtos vendidos|12,33|5|13|07/2025 a 09/2025|Sim
 08/2025|Dir.1|Empresa 1|Reg 1|Prod 3|Produtos vendidos|15,33|5|16|07/2025 a 09/2025|Sim

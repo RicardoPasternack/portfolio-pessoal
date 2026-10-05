@@ -12,9 +12,9 @@ for(const mes of ['2025-07','2025-08','2025-09','2025-10']) {
  const porRegiao=M.opcoes(bases,{},'Regiao').map(Regiao=>M.calcular(bases,{mes,Regiao}));assert.equal(porRegiao.reduce((s,r)=>s+r.brutas,0),r.brutas);assert.equal(porRegiao.reduce((s,r)=>s+r.backlog,0),r.backlog);
  results.push({mes,brutas:r.brutas,liquidas:r.liquidas,instalacoes:r.instalacoes,backlog:r.backlog,meta:r.meta,dias:r.dias});
 }
-assert.equal(M.calcular(bases,{mes:'2025-07'}).meta,null);
+assert.equal(M.calcular(bases,{mes:'2025-07'}).meta,450); const semMeta=structuredClone(bases);semMeta.metas=[];assert.equal(M.calcular(semMeta,{mes:'2025-07'}).meta,null);
 assert.equal(M.calcular(bases,{mes:'2025-10'}).dias,10);
-const vazio=M.calcular(bases,{mes:'2025-10',Empresa:'inexistente'});assert.equal(vazio.brutas,0);assert.equal(vazio.atingimento,null);assert.equal(vazio.diasBacklog,0);
+const vazio=M.calcular(bases,{mes:'2025-10',Empresa:'inexistente'});assert.equal(vazio.brutas,0);assert.equal(vazio.atingimento,null);assert.equal(vazio.diasBacklog,null);
 const semInst=structuredClone(bases);semInst.instalacoes=[];assert.equal(M.calcular(semInst,{mes:'2025-10'}).diasBacklog,null);
 const {DatabaseSync}=require('node:sqlite');const db=new DatabaseSync(path.join(root,'banco','painel.sqlite'),{readOnly:true});
 assert.equal(db.prepare('PRAGMA integrity_check').get().integrity_check,'ok');assert.equal(db.prepare('PRAGMA foreign_key_check').all().length,0);

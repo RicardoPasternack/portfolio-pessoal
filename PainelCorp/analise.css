@@ -1,0 +1,32 @@
+/* O menu precisa ficar acima do contexto de empilhamento do conteúdo. */
+.cabecalho{z-index:20}.pular{z-index:30}
+.valor-textual{font-size:20px;letter-spacing:0;overflow-wrap:anywhere}
+.analise-grade>.analise-bloco{align-self:start}
+.calendario-controles{display:flex;flex-wrap:wrap;gap:16px;align-items:end}.calendario-controles label{display:grid;gap:8px;color:#bdd0db;font-size:13px}input[type=date]{color-scheme:dark;background:#162637;color:#e5f2f8;border:1px solid #435568;border-radius:8px;padding:10px;font:inherit;max-width:100%}.resumo-du{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:20px 0}.resumo-du>div{padding:14px;background:#162b3b;border-radius:8px}.resumo-du small{display:block;color:#b1c8d5}.resumo-du strong{display:block;font-size:25px;margin-top:8px}@media(max-width:650px){.resumo-du{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.analise-pilha{display:flex;flex-direction:column;gap:24px;min-width:0;align-self:start}.analise-pilha .analise-bloco{flex:0 0 auto}
+.historico-visual{display:grid;grid-template-columns:2fr 1fr;gap:32px;margin-bottom:24px}.historico-barras{display:grid;grid-template-columns:120px 1fr;gap:16px;align-items:center;margin:18px 0;font-size:13px}.historico-barras .realizado,.historico-barras .meta{min-width:95px;padding:5px 8px;border-radius:4px;white-space:nowrap;color:#eaf8ff}.historico-barras .realizado{background:#17657e;margin-bottom:4px}.historico-barras .meta{background:#344b62}.meta-pizza{text-align:center}.anel-meta{width:180px;height:180px;border-radius:50%;margin:20px auto;display:grid;place-items:center;background:conic-gradient(#52d5e2 var(--atingido),#2b4053 0);position:relative}.anel-meta:before{content:'';position:absolute;inset:20px;background:#0d1e2c;border-radius:50%}.anel-meta strong{position:relative;font-size:28px}.meta-pizza h3{font-size:15px}
+@media(max-width:850px){.historico-visual{grid-template-columns:1fr}.historico-barras{grid-template-columns:95px 1fr;gap:8px}}
+.pagina-analise{background:linear-gradient(115deg,rgba(4,14,25,.96),rgba(4,19,35,.88)),url('imagens/camera-digital-azul.png') center/cover fixed}
+.titulo-analise{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:40px 0 25px}.titulo-analise h1{font-size:clamp(28px,4vw,44px)}
+.cabecalho nav{display:flex;flex-wrap:wrap;gap:8px}.cabecalho nav a,.menu-paineis a{color:#bed1dd;text-decoration:none;padding:10px 13px;border-radius:8px;display:inline-block}.cabecalho nav a[aria-current],.cabecalho nav a:hover,.menu-paineis a:hover{background:#163a4e;color:#8ee7ff}
+.analise-grade{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0}.analise-bloco{background:rgba(13,30,44,.7);border:1px solid #294352;border-radius:14px;padding:24px;min-width:0}.analise-bloco h2{font-size:20px;margin:0 0 18px}.analise-bloco .nota{margin:14px 0 0}.analise-larga{grid-column:1/-1}
+.barra-linha{display:grid;grid-template-columns:minmax(90px,1fr) 3fr 65px;align-items:center;gap:12px;margin:15px 0;font-size:14px}.barra-trilho{height:10px;border-radius:8px;background:#203444;overflow:hidden}.barra-preenchimento{height:100%;background:linear-gradient(90deg,#207bb7,#6de2e8);border-radius:8px}.barra-valor{text-align:right;font-variant-numeric:tabular-nums}.barra-negativa{background:#7e98b0}
+.analise-bloco svg{display:block;width:100%;min-width:620px;height:auto}.grafico-rolagem{overflow-x:auto}.analise-bloco details{margin-top:18px}.analise-bloco summary{cursor:pointer;color:#9edfe9}.analise-bloco table{width:100%;border-collapse:collapse}.analise-bloco th,.analise-bloco td{padding:12px;text-align:right;border-bottom:1px solid #294352;white-space:nowrap}.analise-bloco th:first-child,.analise-bloco td:first-child{text-align:left}
+.menu-paineis{position:relative}.menu-paineis summary{cursor:pointer;padding:10px 18px;border:1px solid #3d5262;border-radius:8px}.menu-paineis nav{position:absolute;right:0;top:48px;background:#102331;z-index:10;min-width:220px;padding:10px;border:1px solid #365468;border-radius:12px}.menu-paineis nav a{display:block}.menu-paineis .acoes{display:flex;flex-direction:column;gap:8px;border-top:1px solid #365468;padding-top:10px;margin-top:8px}
+@media(max-width:850px){.analise-grade{grid-template-columns:1fr}.pagina-analise .cabecalho{flex-wrap:wrap;gap:16px}.titulo-analise{align-items:flex-start;flex-direction:column}.analise-bloco{padding:16px}.barra-linha{grid-template-columns:100px 1fr 55px}.pagina-analise nav a{padding:8px;font-size:13px}}
+.variacao-du{white-space:nowrap;font-weight:700;font-variant-numeric:tabular-nums}.variacao-du.alta{color:#69e4a2}.variacao-du.queda{color:#ff8585}.variacao-du.estavel{color:#f4cf65}
+.media-venda{min-width:0}.media-venda table{table-layout:fixed;font-size:clamp(11px,1.1vw,14px)}.media-venda th,.media-venda td{padding:10px 4px;white-space:normal;overflow-wrap:anywhere}.media-venda th:nth-child(2){width:24%}.media-venda .variacao-du{white-space:normal}
+.comparacao-mensal .barra-linha{grid-template-columns:1fr auto;gap:8px;margin:22px 0}.comparacao-mensal .barra-trilho{grid-column:1;grid-row:2;height:18px}.comparacao-mensal .barra-valor{grid-column:2;grid-row:2}.comparacao-mensal .barra-linha:first-of-type .barra-preenchimento{background:#7e98b0}
+
+.analise-grade>.mix-compacto,.analise-grade>.comparacao-mensal{align-self:stretch}
+
+.analise-bloco .mix-radial{width:220px;max-width:100%;min-width:0;height:190px;margin:-10px auto 0;overflow:visible}
+.mix-fatia{filter:drop-shadow(0 3px 4px #0006);transition:filter .2s,opacity .2s}.mix-fatia:hover{filter:drop-shadow(0 0 7px #67cbff90);opacity:.85}
+.mix-percentual{fill:white;font-size:12px;font-weight:700;pointer-events:none;text-shadow:0 1px 3px #0009}.mix-total{fill:#f1f7ff;font-size:24px;font-weight:700}.mix-total-label{fill:#b7cada;font-size:9px}
+.mix-radial-legenda{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 16px;font-size:11px}.mix-radial-legenda span:before{content:'';display:inline-block;background:var(--cor);width:7px;height:7px;border-radius:50%;margin-right:5px}
+@media(prefers-reduced-motion:reduce){.mix-fatia{transition:none}}
+
+.analise-grade>.par-backlog{align-self:stretch}
+.analise-grade>.par-motivos{align-self:stretch}.par-motivos .barra-linha{grid-template-columns:minmax(120px,1.2fr) 1fr 40px}
+.analise-grade>.par-cancelamentos{align-self:stretch}
+.analise-grade>.par-semanal{align-self:stretch}

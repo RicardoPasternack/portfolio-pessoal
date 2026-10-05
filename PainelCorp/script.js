@@ -27,7 +27,7 @@ function linhaTabela(tbody,nome,r) {
         const td=document.createElement('td');td.textContent=exibir(valor,percentual);tr.append(td);
     }
     const dias=document.createElement('td');
-    dias.textContent=r.diasBacklog===null?'Sem ritmo':decimal.format(r.diasBacklog)+' dias';
+    dias.textContent=r.diasBacklog===null?'Sem instalações':decimal.format(r.diasBacklog)+' dias';
     tr.append(dias);
     tbody.append(tr);
 }
@@ -108,10 +108,9 @@ function renderizar() {
     for(const [id,valor] of Object.entries(valores))$(id).textContent=exibir(valor);
     $('meta-atingida').textContent=exibir(r.atingimento,true);
     $('progresso').value=Math.max(0,Math.min(100,r.atingimento||0));
-    $('dias-estoque').textContent=r.diasBacklog===null?'Sem ritmo':decimal.format(r.diasBacklog)+' dias';
+    $('dias-estoque').textContent=r.diasBacklog===null?'Sem instalações':decimal.format(r.diasBacklog)+' dias';
     const dataBR=s=>s.split('-').reverse().join('/');
     $('periodo-resumo').textContent=dataBR(r.inicio)+' — '+dataBR(r.fim);
-    $('nota-saldo').textContent=`Backlog inicial: ${exibir(r.inicial)} + vendas líquidas: ${exibir(r.liquidas)} − instalações: ${exibir(r.instalacoes)} = ${exibir(r.backlog)} pendentes. Ritmo: ${decimal.format(r.ritmo)} instalações por dia corrido.`;
     tabela('Regiao','linhas-regioes',f);tabela('Empresa','linhas-empresas',f);
     const abrangencia=['Diretoria','Empresa','Regiao'].filter(campo=>f[campo]).map(campo=>nomeDimensao(campo,f[campo])).join(' · ')||'Grande São Paulo';
     $('total-regioes').replaceChildren();linhaTabela($('total-regioes'),abrangencia,r);
@@ -147,6 +146,11 @@ async function carregarDados() {
         const meses=[...new Set(bases.vendas.map(r=>ModeloPainel.dataISO(r.Data_Ref).slice(0,7)))].sort();
         preencherOpcoes('mes',meses);$('mes').value=meses.at(-1);
         preencherOpcoes('Diretoria',ModeloPainel.opcoes(bases,{},'Diretoria'),'Todas');atualizarFiltros();
+        // Restaura o recorte ao voltar de uma tela de análise.
+        if(typeof location!=='undefined'&&location.search){
+            const parametros=new URLSearchParams(location.search);
+            for(const campo of ids){const valor=parametros.get(campo);if(valor&&Array.from($(campo).options).some(o=>o.value===valor))$(campo).value=valor;atualizarFiltros();}
+        }
         for(const id of [...ids,'limpar'])$(id).disabled=false;
         $('fonte').textContent=fonte;renderizar();
     }catch(erro){$('status').className='erro';$('status').textContent='Não foi possível abrir o painel. '+erro.message+' Abra pelo servidor local ou Live Server.';$('fonte').textContent='Dados indisponíveis';$('tentar').hidden=false;console.error(erro);}
@@ -172,10 +176,3 @@ $('alternar-regioes').addEventListener('click',()=>{
     $('alternar-regioes').textContent=tabela.hidden?'Mostrar regiões':'Ocultar regiões';
 });
 carregarDados();
-
-
-
-
-
-
-

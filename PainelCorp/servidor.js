@@ -6,7 +6,7 @@ if(!fs.existsSync(path.join(raiz,'banco/painel.sqlite')))require('./scripts/carr
 const db=new DatabaseSync(path.join(raiz,'banco/painel.sqlite'),{readOnly:true});
 function bases(){return Object.fromEntries(db.prepare('SELECT nome,conteudo FROM bases_json').all().map(r=>[r.nome,JSON.parse(r.conteudo)]));}
 const mime={'.png':'image/png','.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8'};
-const publicos=new Set(['Index.html','style.css','script.js','modelo.js','cenario.js','imagens/fundo-cinematografico.png','imagens/camera-camadas.png','imagens/cena-residencia.png','imagens/cena-central.png','imagens/cena-camera.png','imagens/camera-digital-azul.png','imagens/nucleo-seguranca.png']);
+const publicos=new Set(['analise.html','analise.css','analise.js','analitica.js','navegacao.js','Index.html','style.css','script.js','modelo.js','cenario.js','imagens/fundo-cinematografico.png','imagens/camera-camadas.png','imagens/cena-residencia.png','imagens/cena-central.png','imagens/cena-camera.png','imagens/camera-digital-azul.png','imagens/nucleo-seguranca.png']);
 const server=http.createServer((req,res)=>{
     const enviar=(status,valor)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'});res.end(JSON.stringify(valor));};
     try {
@@ -19,7 +19,7 @@ const server=http.createServer((req,res)=>{
             try{return enviar(200,modelo.calcular(bases(),f));}catch(e){return enviar(400,{erro:e.message});}
         }
         let arquivo=decodeURIComponent(url.pathname).replace(/^\//,'')||'Index.html';
-        if(!publicos.has(arquivo)&&!/^dados\/(vendas|cancelamentos|instalacoes|metas|backlog|dimensoes)\.json$/.test(arquivo))return enviar(404,{erro:'Arquivo nao encontrado.'});
+        if(!publicos.has(arquivo)&&!/^dados\/(vendas|cancelamentos|instalacoes|metas|backlog|dimensoes|calendario)\.json$/.test(arquivo))return enviar(404,{erro:'Arquivo nao encontrado.'});
         const destino=path.join(raiz,arquivo);if(!fs.existsSync(destino))return enviar(404,{erro:'Arquivo nao encontrado.'});
         res.writeHead(200,{'Content-Type':mime[path.extname(destino)]||'application/octet-stream','Cache-Control':'no-store'});fs.createReadStream(destino).pipe(res);
     }catch(e){enviar(500,{erro:'Nao foi possivel atender a consulta.'});}

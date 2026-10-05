@@ -1,0 +1,177 @@
+{
+  "descricao": "Calendário operacional 2025–2026: feriados fixos e móveis, Carnaval e aniversário de São Paulo. Todas as exceções valem 0,25 DU na operação e são excluídas das três ocorrências normais. Não é calendário jurídico.",
+  "excecoes": [
+    {
+      "data": "2025-01-01",
+      "motivo": "Confraternização Universal",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-01-25",
+      "motivo": "Aniversário de São Paulo",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-03-03",
+      "motivo": "Carnaval",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-03-04",
+      "motivo": "Carnaval",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-04-18",
+      "motivo": "Paixão de Cristo",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-04-21",
+      "motivo": "Tiradentes",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-05-01",
+      "motivo": "Dia do Trabalho",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-06-19",
+      "motivo": "Corpus Christi",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-09-07",
+      "motivo": "Independência",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-10-12",
+      "motivo": "Nossa Senhora Aparecida",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-11-02",
+      "motivo": "Finados",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-11-15",
+      "motivo": "Proclamação da República",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-11-20",
+      "motivo": "Consciência Negra",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2025-12-25",
+      "motivo": "Natal",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-01-01",
+      "motivo": "Confraternização Universal",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-01-25",
+      "motivo": "Aniversário de São Paulo",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-02-16",
+      "motivo": "Carnaval",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-02-17",
+      "motivo": "Carnaval",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-04-03",
+      "motivo": "Paixão de Cristo",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-04-21",
+      "motivo": "Tiradentes",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-05-01",
+      "motivo": "Dia do Trabalho",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-06-04",
+      "motivo": "Corpus Christi",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-09-07",
+      "motivo": "Independência",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-10-12",
+      "motivo": "Nossa Senhora Aparecida",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-11-02",
+      "motivo": "Finados",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-11-15",
+      "motivo": "Proclamação da República",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-11-20",
+      "motivo": "Consciência Negra",
+      "excluirComparacao": true,
+      "du": 0.25
+    },
+    {
+      "data": "2026-12-25",
+      "motivo": "Natal",
+      "excluirComparacao": true,
+      "du": 0.25
+    }
+  ],
+  "anos": [
+    2025,
+    2026
+  ]
+}

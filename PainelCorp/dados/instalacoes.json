@@ -1,6 +1,6 @@
 [
   {
-    "Data_Ref": "05/07/2025 00:00",
+    "Data_Ref": "01/07/2025 00:00",
     "Data_Agendada": "06/07/2025 15:11",
     "Data_Encerramento": "06/07/2025 17:09",
     "Diretoria": "Dir.2",
@@ -34,7 +34,7 @@
     "ID_Pedido": "SIM-LINHA-000008"
   },
   {
-    "Data_Ref": "08/07/2025 00:00",
+    "Data_Ref": "09/07/2025 00:00",
     "Data_Agendada": "09/07/2025 14:40",
     "Data_Encerramento": "09/07/2025 16:17",
     "Diretoria": "Dir.2",
@@ -51,7 +51,7 @@
     "ID_Pedido": "SIM-LINHA-000009"
   },
   {
-    "Data_Ref": "10/07/2025 00:00",
+    "Data_Ref": "08/07/2025 00:00",
     "Data_Agendada": "11/07/2025 15:08",
     "Data_Encerramento": "11/07/2025 15:28",
     "Diretoria": "Dir.2",
@@ -68,7 +68,7 @@
     "ID_Pedido": "SIM-LINHA-000011"
   },
   {
-    "Data_Ref": "12/07/2025 00:00",
+    "Data_Ref": "13/07/2025 00:00",
     "Data_Agendada": "13/07/2025 16:24",
     "Data_Encerramento": "13/07/2025 17:15",
     "Diretoria": "Dir.2",
@@ -85,7 +85,7 @@
     "ID_Pedido": "SIM-LINHA-000013"
   },
   {
-    "Data_Ref": "13/07/2025 00:00",
+    "Data_Ref": "08/07/2025 00:00",
     "Data_Agendada": "14/07/2025 16:21",
     "Data_Encerramento": "14/07/2025 19:00",
     "Diretoria": "Dir.2",
@@ -102,7 +102,7 @@
     "ID_Pedido": "SIM-LINHA-000014"
   },
   {
-    "Data_Ref": "14/07/2025 00:00",
+    "Data_Ref": "08/07/2025 00:00",
     "Data_Agendada": "15/07/2025 16:38",
     "Data_Encerramento": "15/07/2025 19:11",
     "Diretoria": "Dir.2",
@@ -153,7 +153,7 @@
     "ID_Pedido": "SIM-LINHA-000017"
   },
   {
-    "Data_Ref": "17/07/2025 00:00",
+    "Data_Ref": "15/07/2025 00:00",
     "Data_Agendada": "18/07/2025 16:11",
     "Data_Encerramento": "18/07/2025 18:54",
     "Diretoria": "Dir.2",
@@ -170,7 +170,7 @@
     "ID_Pedido": "SIM-LINHA-000018"
   },
   {
-    "Data_Ref": "19/07/2025 00:00",
+    "Data_Ref": "18/07/2025 00:00",
     "Data_Agendada": "20/07/2025 15:19",
     "Data_Encerramento": "20/07/2025 18:08",
     "Diretoria": "Dir.2",
@@ -255,7 +255,7 @@
     "ID_Pedido": "SIM-LINHA-000025"
   },
   {
-    "Data_Ref": "25/07/2025 00:00",
+    "Data_Ref": "14/07/2025 00:00",
     "Data_Agendada": "26/07/2025 14:28",
     "Data_Encerramento": "26/07/2025 16:27",
     "Diretoria": "Dir.2",
@@ -272,7 +272,7 @@
     "ID_Pedido": "SIM-LINHA-000026"
   },
   {
-    "Data_Ref": "26/07/2025 00:00",
+    "Data_Ref": "22/07/2025 00:00",
     "Data_Agendada": "27/07/2025 15:29",
     "Data_Encerramento": "27/07/2025 16:48",
     "Diretoria": "Dir.2",
@@ -340,7 +340,7 @@
     "ID_Pedido": "SIM-LINHA-000033"
   },
   {
-    "Data_Ref": "02/08/2025 00:00",
+    "Data_Ref": "03/08/2025 00:00",
     "Data_Agendada": "03/08/2025 14:46",
     "Data_Encerramento": "03/08/2025 15:14",
     "Diretoria": "Dir.2",
@@ -391,7 +391,7 @@
     "ID_Pedido": "SIM-LINHA-000038"
   },
   {
-    "Data_Ref": "07/08/2025 00:00",
+    "Data_Ref": "06/08/2025 00:00",
     "Data_Agendada": "08/08/2025 15:02",
     "Data_Encerramento": "08/08/2025 15:44",
     "Diretoria": "Dir.2",
@@ -408,7 +408,7 @@
     "ID_Pedido": "SIM-LINHA-000039"
   },
   {
-    "Data_Ref": "10/08/2025 00:00",
+    "Data_Ref": "11/08/2025 00:00",
     "Data_Agendada": "11/08/2025 15:43",
     "Data_Encerramento": "11/08/2025 18:29",
     "Diretoria": "Dir.2",
@@ -476,7 +476,7 @@
     "ID_Pedido": "SIM-LINHA-000046"
   },
   {
-    "Data_Ref": "17/08/2025 00:00",
+    "Data_Ref": "13/08/2025 00:00",
     "Data_Agendada": "18/08/2025 17:18",
     "Data_Encerramento": "18/08/2025 19:41",
     "Diretoria": "Dir.2",
@@ -510,7 +510,7 @@
     "ID_Pedido": "SIM-LINHA-000050"
   },
   {
-    "Data_Ref": "19/08/2025 00:00",
+    "Data_Ref": "15/08/2025 00:00",
     "Data_Agendada": "20/08/2025 15:28",
     "Data_Encerramento": "20/08/2025 17:15",
     "Diretoria": "Dir.2",
@@ -544,7 +544,7 @@
     "ID_Pedido": "SIM-LINHA-000053"
   },
   {
-    "Data_Ref": "22/08/2025 00:00",
+    "Data_Ref": "19/08/2025 00:00",
     "Data_Agendada": "23/08/2025 15:20",
     "Data_Encerramento": "23/08/2025 17:05",
     "Diretoria": "Dir.2",
@@ -561,7 +561,7 @@
     "ID_Pedido": "SIM-LINHA-000054"
   },
   {
-    "Data_Ref": "23/08/2025 00:00",
+    "Data_Ref": "14/08/2025 00:00",
     "Data_Agendada": "24/08/2025 15:40",
     "Data_Encerramento": "24/08/2025 17:20",
     "Diretoria": "Dir.2",
@@ -578,7 +578,7 @@
     "ID_Pedido": "SIM-LINHA-000055"
   },
   {
-    "Data_Ref": "24/08/2025 00:00",
+    "Data_Ref": "25/08/2025 00:00",
     "Data_Agendada": "25/08/2025 17:09",
     "Data_Encerramento": "25/08/2025 17:56",
     "Diretoria": "Dir.2",
@@ -595,7 +595,7 @@
     "ID_Pedido": "SIM-LINHA-000056"
   },
   {
-    "Data_Ref": "27/08/2025 00:00",
+    "Data_Ref": "11/08/2025 00:00",
     "Data_Agendada": "28/08/2025 14:39",
     "Data_Encerramento": "28/08/2025 16:07",
     "Diretoria": "Dir.2",
@@ -612,7 +612,7 @@
     "ID_Pedido": "SIM-LINHA-000059"
   },
   {
-    "Data_Ref": "28/08/2025 00:00",
+    "Data_Ref": "18/08/2025 00:00",
     "Data_Agendada": "29/08/2025 16:48",
     "Data_Encerramento": "29/08/2025 17:10",
     "Diretoria": "Dir.2",
@@ -629,7 +629,7 @@
     "ID_Pedido": "SIM-LINHA-000060"
   },
   {
-    "Data_Ref": "29/08/2025 00:00",
+    "Data_Ref": "18/08/2025 00:00",
     "Data_Agendada": "30/08/2025 16:23",
     "Data_Encerramento": "30/08/2025 18:13",
     "Diretoria": "Dir.2",
@@ -646,7 +646,7 @@
     "ID_Pedido": "SIM-LINHA-000061"
   },
   {
-    "Data_Ref": "30/08/2025 00:00",
+    "Data_Ref": "24/08/2025 00:00",
     "Data_Agendada": "31/08/2025 16:31",
     "Data_Encerramento": "31/08/2025 17:25",
     "Diretoria": "Dir.2",
@@ -748,7 +748,7 @@
     "ID_Pedido": "SIM-LINHA-000068"
   },
   {
-    "Data_Ref": "06/09/2025 00:00",
+    "Data_Ref": "02/09/2025 00:00",
     "Data_Agendada": "07/09/2025 17:20",
     "Data_Encerramento": "07/09/2025 17:41",
     "Diretoria": "Dir.2",
@@ -765,7 +765,7 @@
     "ID_Pedido": "SIM-LINHA-000069"
   },
   {
-    "Data_Ref": "07/09/2025 00:00",
+    "Data_Ref": "08/09/2025 00:00",
     "Data_Agendada": "08/09/2025 14:30",
     "Data_Encerramento": "08/09/2025 15:29",
     "Diretoria": "Dir.2",
@@ -833,7 +833,7 @@
     "ID_Pedido": "SIM-LINHA-000075"
   },
   {
-    "Data_Ref": "13/09/2025 00:00",
+    "Data_Ref": "12/09/2025 00:00",
     "Data_Agendada": "14/09/2025 15:26",
     "Data_Encerramento": "14/09/2025 17:12",
     "Diretoria": "Dir.2",
@@ -884,7 +884,7 @@
     "ID_Pedido": "SIM-LINHA-000079"
   },
   {
-    "Data_Ref": "17/09/2025 00:00",
+    "Data_Ref": "08/09/2025 00:00",
     "Data_Agendada": "18/09/2025 16:16",
     "Data_Encerramento": "18/09/2025 17:51",
     "Diretoria": "Dir.2",
@@ -918,7 +918,7 @@
     "ID_Pedido": "SIM-LINHA-000081"
   },
   {
-    "Data_Ref": "19/09/2025 00:00",
+    "Data_Ref": "09/09/2025 00:00",
     "Data_Agendada": "20/09/2025 14:55",
     "Data_Encerramento": "20/09/2025 17:08",
     "Diretoria": "Dir.2",
@@ -935,7 +935,7 @@
     "ID_Pedido": "SIM-LINHA-000082"
   },
   {
-    "Data_Ref": "20/09/2025 00:00",
+    "Data_Ref": "15/09/2025 00:00",
     "Data_Agendada": "21/09/2025 16:04",
     "Data_Encerramento": "21/09/2025 16:50",
     "Diretoria": "Dir.2",
@@ -952,7 +952,7 @@
     "ID_Pedido": "SIM-LINHA-000083"
   },
   {
-    "Data_Ref": "21/09/2025 00:00",
+    "Data_Ref": "22/09/2025 00:00",
     "Data_Agendada": "22/09/2025 14:30",
     "Data_Encerramento": "22/09/2025 14:50",
     "Diretoria": "Dir.2",
@@ -1003,7 +1003,7 @@
     "ID_Pedido": "SIM-LINHA-000087"
   },
   {
-    "Data_Ref": "25/09/2025 00:00",
+    "Data_Ref": "22/09/2025 00:00",
     "Data_Agendada": "26/09/2025 15:53",
     "Data_Encerramento": "26/09/2025 17:52",
     "Diretoria": "Dir.2",
@@ -1037,7 +1037,7 @@
     "ID_Pedido": "SIM-LINHA-000089"
   },
   {
-    "Data_Ref": "27/09/2025 00:00",
+    "Data_Ref": "18/09/2025 00:00",
     "Data_Agendada": "28/09/2025 15:08",
     "Data_Encerramento": "28/09/2025 15:50",
     "Diretoria": "Dir.2",
@@ -1054,7 +1054,7 @@
     "ID_Pedido": "SIM-LINHA-000090"
   },
   {
-    "Data_Ref": "28/09/2025 00:00",
+    "Data_Ref": "29/09/2025 00:00",
     "Data_Agendada": "29/09/2025 17:18",
     "Data_Encerramento": "29/09/2025 18:56",
     "Diretoria": "Dir.2",
@@ -1122,7 +1122,7 @@
     "ID_Pedido": "SIM-LINHA-000097"
   },
   {
-    "Data_Ref": "06/07/2025 00:00",
+    "Data_Ref": "07/07/2025 00:00",
     "Data_Agendada": "07/07/2025 16:20",
     "Data_Encerramento": "07/07/2025 17:57",
     "Diretoria": "Dir.2",
@@ -1190,7 +1190,7 @@
     "ID_Pedido": "SIM-LINHA-000103"
   },
   {
-    "Data_Ref": "11/07/2025 00:00",
+    "Data_Ref": "09/07/2025 00:00",
     "Data_Agendada": "12/07/2025 15:43",
     "Data_Encerramento": "12/07/2025 16:52",
     "Diretoria": "Dir.2",
@@ -1224,7 +1224,7 @@
     "ID_Pedido": "SIM-LINHA-000105"
   },
   {
-    "Data_Ref": "13/07/2025 00:00",
+    "Data_Ref": "09/07/2025 00:00",
     "Data_Agendada": "14/07/2025 17:02",
     "Data_Encerramento": "14/07/2025 17:35",
     "Diretoria": "Dir.2",
@@ -1394,7 +1394,7 @@
     "ID_Pedido": "SIM-LINHA-000116"
   },
   {
-    "Data_Ref": "25/07/2025 00:00",
+    "Data_Ref": "23/07/2025 00:00",
     "Data_Agendada": "26/07/2025 15:32",
     "Data_Encerramento": "26/07/2025 16:35",
     "Diretoria": "Dir.2",
@@ -1411,7 +1411,7 @@
     "ID_Pedido": "SIM-LINHA-000118"
   },
   {
-    "Data_Ref": "26/07/2025 00:00",
+    "Data_Ref": "21/07/2025 00:00",
     "Data_Agendada": "27/07/2025 16:34",
     "Data_Encerramento": "27/07/2025 17:45",
     "Diretoria": "Dir.2",
@@ -1428,7 +1428,7 @@
     "ID_Pedido": "SIM-LINHA-000119"
   },
   {
-    "Data_Ref": "27/07/2025 00:00",
+    "Data_Ref": "28/07/2025 00:00",
     "Data_Agendada": "28/07/2025 16:40",
     "Data_Encerramento": "28/07/2025 19:02",
     "Diretoria": "Dir.2",
@@ -1496,7 +1496,7 @@
     "ID_Pedido": "SIM-LINHA-000126"
   },
   {
-    "Data_Ref": "03/08/2025 00:00",
+    "Data_Ref": "04/08/2025 00:00",
     "Data_Agendada": "04/08/2025 15:31",
     "Data_Encerramento": "04/08/2025 18:11",
     "Diretoria": "Dir.2",
@@ -1513,7 +1513,7 @@
     "ID_Pedido": "SIM-LINHA-000127"
   },
   {
-    "Data_Ref": "04/08/2025 00:00",
+    "Data_Ref": "05/08/2025 00:00",
     "Data_Agendada": "05/08/2025 16:00",
     "Data_Encerramento": "05/08/2025 16:34",
     "Diretoria": "Dir.2",
@@ -1564,7 +1564,7 @@
     "ID_Pedido": "SIM-LINHA-000131"
   },
   {
-    "Data_Ref": "08/08/2025 00:00",
+    "Data_Ref": "05/08/2025 00:00",
     "Data_Agendada": "09/08/2025 14:51",
     "Data_Encerramento": "09/08/2025 15:23",
     "Diretoria": "Dir.2",
@@ -1615,7 +1615,7 @@
     "ID_Pedido": "SIM-LINHA-000137"
   },
   {
-    "Data_Ref": "17/08/2025 00:00",
+    "Data_Ref": "18/08/2025 00:00",
     "Data_Agendada": "18/08/2025 15:26",
     "Data_Encerramento": "18/08/2025 17:09",
     "Diretoria": "Dir.2",
@@ -1666,7 +1666,7 @@
     "ID_Pedido": "SIM-LINHA-000146"
   },
   {
-    "Data_Ref": "23/08/2025 00:00",
+    "Data_Ref": "19/08/2025 00:00",
     "Data_Agendada": "24/08/2025 17:06",
     "Data_Encerramento": "24/08/2025 18:16",
     "Diretoria": "Dir.2",
@@ -1717,7 +1717,7 @@
     "ID_Pedido": "SIM-LINHA-000151"
   },
   {
-    "Data_Ref": "28/08/2025 00:00",
+    "Data_Ref": "19/08/2025 00:00",
     "Data_Agendada": "29/08/2025 16:32",
     "Data_Encerramento": "29/08/2025 17:45",
     "Diretoria": "Dir.2",
@@ -1734,7 +1734,7 @@
     "ID_Pedido": "SIM-LINHA-000152"
   },
   {
-    "Data_Ref": "29/08/2025 00:00",
+    "Data_Ref": "17/08/2025 00:00",
     "Data_Agendada": "30/08/2025 14:34",
     "Data_Encerramento": "30/08/2025 17:34",
     "Diretoria": "Dir.2",
@@ -1751,7 +1751,7 @@
     "ID_Pedido": "SIM-LINHA-000153"
   },
   {
-    "Data_Ref": "30/08/2025 00:00",
+    "Data_Ref": "31/08/2025 00:00",
     "Data_Agendada": "31/08/2025 16:26",
     "Data_Encerramento": "31/08/2025 18:41",
     "Diretoria": "Dir.2",
@@ -1768,7 +1768,7 @@
     "ID_Pedido": "SIM-LINHA-000154"
   },
   {
-    "Data_Ref": "31/08/2025 00:00",
+    "Data_Ref": "20/08/2025 00:00",
     "Data_Agendada": "01/09/2025 16:49",
     "Data_Encerramento": "01/09/2025 18:43",
     "Diretoria": "Dir.2",
@@ -1853,7 +1853,7 @@
     "ID_Pedido": "SIM-LINHA-000159"
   },
   {
-    "Data_Ref": "07/09/2025 00:00",
+    "Data_Ref": "03/09/2025 00:00",
     "Data_Agendada": "08/09/2025 14:30",
     "Data_Encerramento": "08/09/2025 17:13",
     "Diretoria": "Dir.2",
@@ -1904,7 +1904,7 @@
     "ID_Pedido": "SIM-LINHA-000166"
   },
   {
-    "Data_Ref": "13/09/2025 00:00",
+    "Data_Ref": "02/09/2025 00:00",
     "Data_Agendada": "14/09/2025 14:35",
     "Data_Encerramento": "14/09/2025 16:30",
     "Diretoria": "Dir.2",
@@ -1955,7 +1955,7 @@
     "ID_Pedido": "SIM-LINHA-000173"
   },
   {
-    "Data_Ref": "19/09/2025 00:00",
+    "Data_Ref": "09/09/2025 00:00",
     "Data_Agendada": "20/09/2025 17:21",
     "Data_Encerramento": "20/09/2025 17:46",
     "Diretoria": "Dir.2",
@@ -1972,7 +1972,7 @@
     "ID_Pedido": "SIM-LINHA-000174"
   },
   {
-    "Data_Ref": "20/09/2025 00:00",
+    "Data_Ref": "14/09/2025 00:00",
     "Data_Agendada": "21/09/2025 16:21",
     "Data_Encerramento": "21/09/2025 18:00",
     "Diretoria": "Dir.2",
@@ -1989,7 +1989,7 @@
     "ID_Pedido": "SIM-LINHA-000175"
   },
   {
-    "Data_Ref": "21/09/2025 00:00",
+    "Data_Ref": "08/09/2025 00:00",
     "Data_Agendada": "22/09/2025 16:50",
     "Data_Encerramento": "22/09/2025 18:17",
     "Diretoria": "Dir.2",
@@ -2074,7 +2074,7 @@
     "ID_Pedido": "SIM-LINHA-000181"
   },
   {
-    "Data_Ref": "27/09/2025 00:00",
+    "Data_Ref": "15/09/2025 00:00",
     "Data_Agendada": "28/09/2025 15:30",
     "Data_Encerramento": "28/09/2025 16:31",
     "Diretoria": "Dir.2",
@@ -2091,7 +2091,7 @@
     "ID_Pedido": "SIM-LINHA-000182"
   },
   {
-    "Data_Ref": "28/09/2025 00:00",
+    "Data_Ref": "23/09/2025 00:00",
     "Data_Agendada": "29/09/2025 15:02",
     "Data_Encerramento": "29/09/2025 16:07",
     "Diretoria": "Dir.2",
@@ -2159,7 +2159,7 @@
     "ID_Pedido": "SIM-LINHA-000189"
   },
   {
-    "Data_Ref": "05/07/2025 00:00",
+    "Data_Ref": "01/07/2025 00:00",
     "Data_Agendada": "06/07/2025 17:05",
     "Data_Encerramento": "06/07/2025 17:58",
     "Diretoria": "Dir.2",
@@ -2210,7 +2210,7 @@
     "ID_Pedido": "SIM-LINHA-000193"
   },
   {
-    "Data_Ref": "10/07/2025 00:00",
+    "Data_Ref": "07/07/2025 00:00",
     "Data_Agendada": "11/07/2025 15:18",
     "Data_Encerramento": "11/07/2025 18:02",
     "Diretoria": "Dir.2",
@@ -2261,7 +2261,7 @@
     "ID_Pedido": "SIM-LINHA-000197"
   },
   {
-    "Data_Ref": "13/07/2025 00:00",
+    "Data_Ref": "14/07/2025 00:00",
     "Data_Agendada": "14/07/2025 15:47",
     "Data_Encerramento": "14/07/2025 16:41",
     "Diretoria": "Dir.2",
@@ -2295,7 +2295,7 @@
     "ID_Pedido": "SIM-LINHA-000199"
   },
   {
-    "Data_Ref": "19/07/2025 00:00",
+    "Data_Ref": "15/07/2025 00:00",
     "Data_Agendada": "20/07/2025 15:04",
     "Data_Encerramento": "20/07/2025 17:04",
     "Diretoria": "Dir.2",
@@ -2363,7 +2363,7 @@
     "ID_Pedido": "SIM-LINHA-000208"
   },
   {
-    "Data_Ref": "27/07/2025 00:00",
+    "Data_Ref": "28/07/2025 00:00",
     "Data_Agendada": "28/07/2025 15:37",
     "Data_Encerramento": "28/07/2025 16:35",
     "Diretoria": "Dir.2",
@@ -2431,7 +2431,7 @@
     "ID_Pedido": "SIM-LINHA-000215"
   },
   {
-    "Data_Ref": "31/07/2025 00:00",
+    "Data_Ref": "28/07/2025 00:00",
     "Data_Agendada": "01/08/2025 15:57",
     "Data_Encerramento": "01/08/2025 17:24",
     "Diretoria": "Dir.2",
@@ -2448,7 +2448,7 @@
     "ID_Pedido": "SIM-LINHA-000216"
   },
   {
-    "Data_Ref": "03/08/2025 00:00",
+    "Data_Ref": "04/08/2025 00:00",
     "Data_Agendada": "04/08/2025 16:11",
     "Data_Encerramento": "04/08/2025 18:37",
     "Diretoria": "Dir.2",
@@ -2533,7 +2533,7 @@
     "ID_Pedido": "SIM-LINHA-000224"
   },
   {
-    "Data_Ref": "10/08/2025 00:00",
+    "Data_Ref": "11/08/2025 00:00",
     "Data_Agendada": "11/08/2025 14:25",
     "Data_Encerramento": "11/08/2025 16:59",
     "Diretoria": "Dir.2",
@@ -2601,7 +2601,7 @@
     "ID_Pedido": "SIM-LINHA-000231"
   },
   {
-    "Data_Ref": "17/08/2025 00:00",
+    "Data_Ref": "18/08/2025 00:00",
     "Data_Agendada": "18/08/2025 15:31",
     "Data_Encerramento": "18/08/2025 15:51",
     "Diretoria": "Dir.2",
@@ -2703,7 +2703,7 @@
     "ID_Pedido": "SIM-LINHA-000239"
   },
   {
-    "Data_Ref": "24/08/2025 00:00",
+    "Data_Ref": "19/08/2025 00:00",
     "Data_Agendada": "25/08/2025 14:38",
     "Data_Encerramento": "25/08/2025 15:39",
     "Diretoria": "Dir.2",
@@ -2754,7 +2754,7 @@
     "ID_Pedido": "SIM-LINHA-000242"
   },
   {
-    "Data_Ref": "27/08/2025 00:00",
+    "Data_Ref": "18/08/2025 00:00",
     "Data_Agendada": "28/08/2025 17:16",
     "Data_Encerramento": "28/08/2025 18:43",
     "Diretoria": "Dir.2",
@@ -2771,7 +2771,7 @@
     "ID_Pedido": "SIM-LINHA-000243"
   },
   {
-    "Data_Ref": "29/08/2025 00:00",
+    "Data_Ref": "19/08/2025 00:00",
     "Data_Agendada": "30/08/2025 16:43",
     "Data_Encerramento": "30/08/2025 17:59",
     "Diretoria": "Dir.2",
@@ -2788,7 +2788,7 @@
     "ID_Pedido": "SIM-LINHA-000245"
   },
   {
-    "Data_Ref": "30/08/2025 00:00",
+    "Data_Ref": "19/08/2025 00:00",
     "Data_Agendada": "31/08/2025 14:25",
     "Data_Encerramento": "31/08/2025 15:03",
     "Diretoria": "Dir.2",
@@ -3026,7 +3026,7 @@
     "ID_Pedido": "SIM-LINHA-000270"
   },
   {
-    "Data_Ref": "24/09/2025 00:00",
+    "Data_Ref": "09/09/2025 00:00",
     "Data_Agendada": "25/09/2025 15:04",
     "Data_Encerramento": "25/09/2025 15:52",
     "Diretoria": "Dir.2",
@@ -3043,7 +3043,7 @@
     "ID_Pedido": "SIM-LINHA-000271"
   },
   {
-    "Data_Ref": "27/09/2025 00:00",
+    "Data_Ref": "23/09/2025 00:00",
     "Data_Agendada": "28/09/2025 14:46",
     "Data_Encerramento": "28/09/2025 15:26",
     "Diretoria": "Dir.2",
@@ -3060,7 +3060,7 @@
     "ID_Pedido": "SIM-LINHA-000274"
   },
   {
-    "Data_Ref": "28/09/2025 00:00",
+    "Data_Ref": "29/09/2025 00:00",
     "Data_Agendada": "29/09/2025 15:24",
     "Data_Encerramento": "29/09/2025 16:25",
     "Diretoria": "Dir.2",
@@ -3162,7 +3162,7 @@
     "ID_Pedido": "SIM-LINHA-000280"
   },
   {
-    "Data_Ref": "06/07/2025 00:00",
+    "Data_Ref": "07/07/2025 00:00",
     "Data_Agendada": "07/07/2025 14:59",
     "Data_Encerramento": "07/07/2025 16:53",
     "Diretoria": "Dir.2",
@@ -3213,7 +3213,7 @@
     "ID_Pedido": "SIM-LINHA-000287"
   },
   {
-    "Data_Ref": "12/07/2025 00:00",
+    "Data_Ref": "10/07/2025 00:00",
     "Data_Agendada": "13/07/2025 14:33",
     "Data_Encerramento": "13/07/2025 15:35",
     "Diretoria": "Dir.2",
@@ -3264,7 +3264,7 @@
     "ID_Pedido": "SIM-LINHA-000293"
   },
   {
-    "Data_Ref": "18/07/2025 00:00",
+    "Data_Ref": "14/07/2025 00:00",
     "Data_Agendada": "19/07/2025 15:07",
     "Data_Encerramento": "19/07/2025 15:37",
     "Diretoria": "Dir.2",
@@ -3366,7 +3366,7 @@
     "ID_Pedido": "SIM-LINHA-000301"
   },
   {
-    "Data_Ref": "27/07/2025 00:00",
+    "Data_Ref": "28/07/2025 00:00",
     "Data_Agendada": "28/07/2025 15:41",
     "Data_Encerramento": "28/07/2025 18:29",
     "Diretoria": "Dir.2",
@@ -3468,7 +3468,7 @@
     "ID_Pedido": "SIM-LINHA-000310"
   },
   {
-    "Data_Ref": "03/08/2025 00:00",
+    "Data_Ref": "04/08/2025 00:00",
     "Data_Agendada": "04/08/2025 15:28",
     "Data_Encerramento": "04/08/2025 17:04",
     "Diretoria": "Dir.2",
@@ -3553,7 +3553,7 @@
     "ID_Pedido": "SIM-LINHA-000316"
   },
   {
-    "Data_Ref": "09/08/2025 00:00",
+    "Data_Ref": "04/08/2025 00:00",
     "Data_Agendada": "10/08/2025 15:05",
     "Data_Encerramento": "10/08/2025 15:39",
     "Diretoria": "Dir.2",
@@ -3604,7 +3604,7 @@
     "ID_Pedido": "SIM-LINHA-000320"
   },
   {
-    "Data_Ref": "13/08/2025 00:00",
+    "Data_Ref": "11/08/2025 00:00",
     "Data_Agendada": "14/08/2025 16:12",
     "Data_Encerramento": "14/08/2025 17:49",
     "Diretoria": "Dir.2",
@@ -3655,7 +3655,7 @@
     "ID_Pedido": "SIM-LINHA-000323"
   },
   {
-    "Data_Ref": "16/08/2025 00:00",
+    "Data_Ref": "13/08/2025 00:00",
     "Data_Agendada": "17/08/2025 16:55",
     "Data_Encerramento": "17/08/2025 17:40",
     "Diretoria": "Dir.2",
@@ -3757,7 +3757,7 @@
     "ID_Pedido": "SIM-LINHA-000331"
   },
   {
-    "Data_Ref": "24/08/2025 00:00",
+    "Data_Ref": "25/08/2025 00:00",
     "Data_Agendada": "25/08/2025 16:07",
     "Data_Encerramento": "25/08/2025 17:00",
     "Diretoria": "Dir.2",
@@ -3808,7 +3808,7 @@
     "ID_Pedido": "SIM-LINHA-000337"
   },
   {
-    "Data_Ref": "31/08/2025 00:00",
+    "Data_Ref": "20/08/2025 00:00",
     "Data_Agendada": "01/09/2025 17:05",
     "Data_Encerramento": "01/09/2025 18:32",
     "Diretoria": "Dir.2",
@@ -3876,7 +3876,7 @@
     "ID_Pedido": "SIM-LINHA-000343"
   },
   {
-    "Data_Ref": "06/09/2025 00:00",
+    "Data_Ref": "03/09/2025 00:00",
     "Data_Agendada": "07/09/2025 14:32",
     "Data_Encerramento": "07/09/2025 15:05",
     "Diretoria": "Dir.2",
@@ -4012,7 +4012,7 @@
     "ID_Pedido": "SIM-LINHA-000355"
   },
   {
-    "Data_Ref": "17/09/2025 00:00",
+    "Data_Ref": "16/09/2025 00:00",
     "Data_Agendada": "18/09/2025 14:27",
     "Data_Encerramento": "18/09/2025 14:47",
     "Diretoria": "Dir.2",
@@ -4131,7 +4131,7 @@
     "ID_Pedido": "SIM-LINHA-000364"
   },
   {
-    "Data_Ref": "27/09/2025 00:00",
+    "Data_Ref": "16/09/2025 00:00",
     "Data_Agendada": "28/09/2025 14:25",
     "Data_Encerramento": "28/09/2025 16:18",
     "Diretoria": "Dir.2",
@@ -4148,7 +4148,7 @@
     "ID_Pedido": "SIM-LINHA-000366"
   },
   {
-    "Data_Ref": "28/09/2025 00:00",
+    "Data_Ref": "29/09/2025 00:00",
     "Data_Agendada": "29/09/2025 14:56",
     "Data_Encerramento": "29/09/2025 16:19",
     "Diretoria": "Dir.2",
@@ -4233,7 +4233,7 @@
     "ID_Pedido": "SIM-LINHA-000373"
   },
   {
-    "Data_Ref": "06/07/2025 00:00",
+    "Data_Ref": "01/07/2025 00:00",
     "Data_Agendada": "07/07/2025 15:02",
     "Data_Encerramento": "07/07/2025 16:13",
     "Diretoria": "Dir.2",
@@ -4318,7 +4318,7 @@
     "ID_Pedido": "SIM-LINHA-000387"
   },
   {
-    "Data_Ref": "20/07/2025 00:00",
+    "Data_Ref": "15/07/2025 00:00",
     "Data_Agendada": "21/07/2025 15:19",
     "Data_Encerramento": "21/07/2025 16:23",
     "Diretoria": "Dir.2",
@@ -4352,7 +4352,7 @@
     "ID_Pedido": "SIM-LINHA-000391"
   },
   {
-    "Data_Ref": "25/07/2025 00:00",
+    "Data_Ref": "20/07/2025 00:00",
     "Data_Agendada": "26/07/2025 16:12",
     "Data_Encerramento": "26/07/2025 17:11",
     "Diretoria": "Dir.2",
@@ -4386,7 +4386,7 @@
     "ID_Pedido": "SIM-LINHA-000395"
   },
   {
-    "Data_Ref": "27/07/2025 00:00",
+    "Data_Ref": "28/07/2025 00:00",
     "Data_Agendada": "28/07/2025 14:54",
     "Data_Encerramento": "28/07/2025 15:58",
     "Diretoria": "Dir.2",
@@ -4454,7 +4454,7 @@
     "ID_Pedido": "SIM-LINHA-000403"
   },
   {
-    "Data_Ref": "04/08/2025 00:00",
+    "Data_Ref": "05/08/2025 00:00",
     "Data_Agendada": "05/08/2025 16:04",
     "Data_Encerramento": "05/08/2025 18:15",
     "Diretoria": "Dir.2",
@@ -4556,7 +4556,7 @@
     "ID_Pedido": "SIM-LINHA-000413"
   },
   {
-    "Data_Ref": "17/08/2025 00:00",
+    "Data_Ref": "15/08/2025 00:00",
     "Data_Agendada": "18/08/2025 15:53",
     "Data_Encerramento": "18/08/2025 17:22",
     "Diretoria": "Dir.2",
@@ -4641,7 +4641,7 @@
     "ID_Pedido": "SIM-LINHA-000423"
   },
   {
-    "Data_Ref": "24/08/2025 00:00",
+    "Data_Ref": "20/08/2025 00:00",
     "Data_Agendada": "25/08/2025 17:00",
     "Data_Encerramento": "25/08/2025 18:34",
     "Diretoria": "Dir.2",
@@ -4675,7 +4675,7 @@
     "ID_Pedido": "SIM-LINHA-000426"
   },
   {
-    "Data_Ref": "27/08/2025 00:00",
+    "Data_Ref": "18/08/2025 00:00",
     "Data_Agendada": "28/08/2025 14:50",
     "Data_Encerramento": "28/08/2025 16:26",
     "Diretoria": "Dir.2",
@@ -4709,7 +4709,7 @@
     "ID_Pedido": "SIM-LINHA-000428"
   },
   {
-    "Data_Ref": "30/08/2025 00:00",
+    "Data_Ref": "25/08/2025 00:00",
     "Data_Agendada": "31/08/2025 16:10",
     "Data_Encerramento": "31/08/2025 16:39",
     "Diretoria": "Dir.2",
@@ -4862,7 +4862,7 @@
     "ID_Pedido": "SIM-LINHA-000448"
   },
   {
-    "Data_Ref": "19/09/2025 00:00",
+    "Data_Ref": "16/09/2025 00:00",
     "Data_Agendada": "20/09/2025 15:48",
     "Data_Encerramento": "20/09/2025 17:28",
     "Diretoria": "Dir.2",
@@ -4930,7 +4930,7 @@
     "ID_Pedido": "SIM-LINHA-000455"
   },
   {
-    "Data_Ref": "26/09/2025 00:00",
+    "Data_Ref": "15/09/2025 00:00",
     "Data_Agendada": "27/09/2025 15:53",
     "Data_Encerramento": "27/09/2025 16:13",
     "Diretoria": "Dir.2",
@@ -4947,7 +4947,7 @@
     "ID_Pedido": "SIM-LINHA-000457"
   },
   {
-    "Data_Ref": "28/09/2025 00:00",
+    "Data_Ref": "27/09/2025 00:00",
     "Data_Agendada": "29/09/2025 16:11",
     "Data_Encerramento": "29/09/2025 18:06",
     "Diretoria": "Dir.2",
@@ -5049,7 +5049,7 @@
     "ID_Pedido": "SIM-LINHA-000466"
   },
   {
-    "Data_Ref": "06/07/2025 00:00",
+    "Data_Ref": "03/07/2025 00:00",
     "Data_Agendada": "07/07/2025 15:44",
     "Data_Encerramento": "07/07/2025 16:23",
     "Diretoria": "Dir.2",
@@ -5117,7 +5117,7 @@
     "ID_Pedido": "SIM-LINHA-000472"
   },
   {
-    "Data_Ref": "13/07/2025 00:00",
+    "Data_Ref": "08/07/2025 00:00",
     "Data_Agendada": "14/07/2025 16:09",
     "Data_Encerramento": "14/07/2025 16:58",
     "Diretoria": "Dir.2",
@@ -5287,7 +5287,7 @@
     "ID_Pedido": "SIM-LINHA-000486"
   },
   {
-    "Data_Ref": "26/07/2025 00:00",
+    "Data_Ref": "24/07/2025 00:00",
     "Data_Agendada": "27/07/2025 17:22",
     "Data_Encerramento": "27/07/2025 18:58",
     "Diretoria": "Dir.2",
@@ -5355,7 +5355,7 @@
     "ID_Pedido": "SIM-LINHA-000493"
   },
   {
-    "Data_Ref": "04/08/2025 00:00",
+    "Data_Ref": "05/08/2025 00:00",
     "Data_Agendada": "05/08/2025 15:58",
     "Data_Encerramento": "05/08/2025 18:11",
     "Diretoria": "Dir.2",
@@ -5440,7 +5440,7 @@
     "ID_Pedido": "SIM-LINHA-000500"
   },
   {
-    "Data_Ref": "10/08/2025 00:00",
+    "Data_Ref": "07/08/2025 00:00",
     "Data_Agendada": "11/08/2025 15:53",
     "Data_Encerramento": "11/08/2025 16:15",
     "Diretoria": "Dir.2",
@@ -5491,7 +5491,7 @@
     "ID_Pedido": "SIM-LINHA-000507"
   },
   {
-    "Data_Ref": "17/08/2025 00:00",
+    "Data_Ref": "08/08/2025 00:00",
     "Data_Agendada": "18/08/2025 15:41",
     "Data_Encerramento": "18/08/2025 18:30",
     "Diretoria": "Dir.2",
@@ -5576,7 +5576,7 @@
     "ID_Pedido": "SIM-LINHA-000513"
   },
   {
-    "Data_Ref": "23/08/2025 00:00",
+    "Data_Ref": "21/08/2025 00:00",
     "Data_Agendada": "24/08/2025 17:17",
     "Data_Encerramento": "24/08/2025 18:09",
     "Diretoria": "Dir.2",
@@ -5593,7 +5593,7 @@
     "ID_Pedido": "SIM-LINHA-000515"
   },
   {
-    "Data_Ref": "24/08/2025 00:00",
+    "Data_Ref": "18/08/2025 00:00",
     "Data_Agendada": "25/08/2025 16:31",
     "Data_Encerramento": "25/08/2025 17:28",
     "Diretoria": "Dir.2",
@@ -5644,7 +5644,7 @@
     "ID_Pedido": "SIM-LINHA-000519"
   },
   {
-    "Data_Ref": "28/08/2025 00:00",
+    "Data_Ref": "27/08/2025 00:00",
     "Data_Agendada": "29/08/2025 14:26",
     "Data_Encerramento": "29/08/2025 16:14",
     "Diretoria": "Dir.2",
@@ -5661,7 +5661,7 @@
     "ID_Pedido": "SIM-LINHA-000520"
   },
   {
-    "Data_Ref": "29/08/2025 00:00",
+    "Data_Ref": "15/08/2025 00:00",
     "Data_Agendada": "30/08/2025 14:42",
     "Data_Encerramento": "30/08/2025 15:04",
     "Diretoria": "Dir.2",
@@ -5865,7 +5865,7 @@
     "ID_Pedido": "SIM-LINHA-000538"
   },
   {
-    "Data_Ref": "18/09/2025 00:00",
+    "Data_Ref": "15/09/2025 00:00",
     "Data_Agendada": "19/09/2025 15:37",
     "Data_Encerramento": "19/09/2025 17:19",
     "Diretoria": "Dir.2",
@@ -5899,7 +5899,7 @@
     "ID_Pedido": "SIM-LINHA-000542"
   },
   {
-    "Data_Ref": "20/09/2025 00:00",
+    "Data_Ref": "18/09/2025 00:00",
     "Data_Agendada": "21/09/2025 15:16",
     "Data_Encerramento": "21/09/2025 18:16",
     "Diretoria": "Dir.2",
@@ -5916,7 +5916,7 @@
     "ID_Pedido": "SIM-LINHA-000543"
   },
   {
-    "Data_Ref": "21/09/2025 00:00",
+    "Data_Ref": "22/09/2025 00:00",
     "Data_Agendada": "22/09/2025 16:22",
     "Data_Encerramento": "22/09/2025 18:13",
     "Diretoria": "Dir.2",
@@ -5967,7 +5967,7 @@
     "ID_Pedido": "SIM-LINHA-000549"
   },
   {
-    "Data_Ref": "27/09/2025 00:00",
+    "Data_Ref": "24/09/2025 00:00",
     "Data_Agendada": "28/09/2025 17:09",
     "Data_Encerramento": "28/09/2025 20:02",
     "Diretoria": "Dir.2",
@@ -6137,7 +6137,7 @@
     "ID_Pedido": "SIM-LINHA-000564"
   },
   {
-    "Data_Ref": "12/07/2025 00:00",
+    "Data_Ref": "11/07/2025 00:00",
     "Data_Agendada": "13/07/2025 16:57",
     "Data_Encerramento": "13/07/2025 18:08",
     "Diretoria": "Dir.1",
@@ -6154,7 +6154,7 @@
     "ID_Pedido": "SIM-LINHA-000565"
   },
   {
-    "Data_Ref": "13/07/2025 00:00",
+    "Data_Ref": "08/07/2025 00:00",
     "Data_Agendada": "14/07/2025 17:12",
     "Data_Encerramento": "14/07/2025 17:36",
     "Diretoria": "Dir.1",
@@ -6205,7 +6205,7 @@
     "ID_Pedido": "SIM-LINHA-000571"
   },
   {
-    "Data_Ref": "20/07/2025 00:00",
+    "Data_Ref": "15/07/2025 00:00",
     "Data_Agendada": "21/07/2025 17:13",
     "Data_Encerramento": "21/07/2025 18:53",
     "Diretoria": "Dir.1",
@@ -6273,7 +6273,7 @@
     "ID_Pedido": "SIM-LINHA-000576"
   },
   {
-    "Data_Ref": "25/07/2025 00:00",
+    "Data_Ref": "24/07/2025 00:00",
     "Data_Agendada": "26/07/2025 14:29",
     "Data_Encerramento": "26/07/2025 15:04",
     "Diretoria": "Dir.1",
@@ -6307,7 +6307,7 @@
     "ID_Pedido": "SIM-LINHA-000579"
   },
   {
-    "Data_Ref": "27/07/2025 00:00",
+    "Data_Ref": "28/07/2025 00:00",
     "Data_Agendada": "28/07/2025 14:28",
     "Data_Encerramento": "28/07/2025 14:51",
     "Diretoria": "Dir.1",
@@ -6409,7 +6409,7 @@
     "ID_Pedido": "SIM-LINHA-000586"
   },
   {
-    "Data_Ref": "03/08/2025 00:00",
+    "Data_Ref": "01/08/2025 00:00",
     "Data_Agendada": "04/08/2025 15:00",
     "Data_Encerramento": "04/08/2025 17:50",
     "Diretoria": "Dir.1",
@@ -6460,7 +6460,7 @@
     "ID_Pedido": "SIM-LINHA-000589"
   },
   {
-    "Data_Ref": "09/08/2025 00:00",
+    "Data_Ref": "05/08/2025 00:00",
     "Data_Agendada": "10/08/2025 15:06",
     "Data_Encerramento": "10/08/2025 15:51",
     "Diretoria": "Dir.1",
@@ -6664,7 +6664,7 @@
     "ID_Pedido": "SIM-LINHA-000614"
   },
   {
-    "Data_Ref": "31/08/2025 00:00",
+    "Data_Ref": "20/08/2025 00:00",
     "Data_Agendada": "01/09/2025 16:13",
     "Data_Encerramento": "01/09/2025 16:52",
     "Diretoria": "Dir.1",
@@ -6732,7 +6732,7 @@
     "ID_Pedido": "SIM-LINHA-000619"
   },
   {
-    "Data_Ref": "05/09/2025 00:00",
+    "Data_Ref": "01/09/2025 00:00",
     "Data_Agendada": "06/09/2025 15:12",
     "Data_Encerramento": "06/09/2025 16:24",
     "Diretoria": "Dir.1",
@@ -6783,7 +6783,7 @@
     "ID_Pedido": "SIM-LINHA-000626"
   },
   {
-    "Data_Ref": "13/09/2025 00:00",
+    "Data_Ref": "02/09/2025 00:00",
     "Data_Agendada": "14/09/2025 15:49",
     "Data_Encerramento": "14/09/2025 17:56",
     "Diretoria": "Dir.1",
@@ -6936,7 +6936,7 @@
     "ID_Pedido": "SIM-LINHA-000642"
   },
   {
-    "Data_Ref": "28/09/2025 00:00",
+    "Data_Ref": "24/09/2025 00:00",
     "Data_Agendada": "29/09/2025 15:44",
     "Data_Encerramento": "29/09/2025 17:04",
     "Diretoria": "Dir.1",
@@ -7089,7 +7089,7 @@
     "ID_Pedido": "SIM-LINHA-000657"
   },
   {
-    "Data_Ref": "13/07/2025 00:00",
+    "Data_Ref": "09/07/2025 00:00",
     "Data_Agendada": "14/07/2025 16:59",
     "Data_Encerramento": "14/07/2025 18:34",
     "Diretoria": "Dir.1",
@@ -7310,7 +7310,7 @@
     "ID_Pedido": "SIM-LINHA-000678"
   },
   {
-    "Data_Ref": "03/08/2025 00:00",
+    "Data_Ref": "01/08/2025 00:00",
     "Data_Agendada": "04/08/2025 17:14",
     "Data_Encerramento": "04/08/2025 18:53",
     "Diretoria": "Dir.1",
@@ -7599,7 +7599,7 @@
     "ID_Pedido": "SIM-LINHA-000703"
   },
   {
-    "Data_Ref": "28/08/2025 00:00",
+    "Data_Ref": "25/08/2025 00:00",
     "Data_Agendada": "29/08/2025 15:58",
     "Data_Encerramento": "29/08/2025 18:29",
     "Diretoria": "Dir.1",
@@ -7616,7 +7616,7 @@
     "ID_Pedido": "SIM-LINHA-000704"
   },
   {
-    "Data_Ref": "31/08/2025 00:00",
+    "Data_Ref": "20/08/2025 00:00",
     "Data_Agendada": "01/09/2025 16:29",
     "Data_Encerramento": "01/09/2025 17:48",
     "Diretoria": "Dir.1",
@@ -7718,7 +7718,7 @@
     "ID_Pedido": "SIM-LINHA-000716"
   },
   {
-    "Data_Ref": "10/09/2025 00:00",
+    "Data_Ref": "01/09/2025 00:00",
     "Data_Agendada": "11/09/2025 16:52",
     "Data_Encerramento": "11/09/2025 18:58",
     "Diretoria": "Dir.1",
@@ -7803,7 +7803,7 @@
     "ID_Pedido": "SIM-LINHA-000726"
   },
   {
-    "Data_Ref": "20/09/2025 00:00",
+    "Data_Ref": "08/09/2025 00:00",
     "Data_Agendada": "21/09/2025 15:19",
     "Data_Encerramento": "21/09/2025 16:34",
     "Diretoria": "Dir.1",
@@ -7871,7 +7871,7 @@
     "ID_Pedido": "SIM-LINHA-000733"
   },
   {
-    "Data_Ref": "28/09/2025 00:00",
+    "Data_Ref": "23/09/2025 00:00",
     "Data_Agendada": "29/09/2025 16:50",
     "Data_Encerramento": "29/09/2025 18:25",
     "Diretoria": "Dir.1",
@@ -7922,7 +7922,7 @@
     "ID_Pedido": "SIM-LINHA-000737"
   },
   {
-    "Data_Ref": "04/07/2025 00:00",
+    "Data_Ref": "01/07/2025 00:00",
     "Data_Agendada": "05/07/2025 16:35",
     "Data_Encerramento": "05/07/2025 19:07",
     "Diretoria": "Dir.1",
@@ -8058,7 +8058,7 @@
     "ID_Pedido": "SIM-LINHA-000755"
   },
   {
-    "Data_Ref": "19/07/2025 00:00",
+    "Data_Ref": "17/07/2025 00:00",
     "Data_Agendada": "20/07/2025 16:09",
     "Data_Encerramento": "20/07/2025 17:46",
     "Diretoria": "Dir.1",
@@ -8075,7 +8075,7 @@
     "ID_Pedido": "SIM-LINHA-000756"
   },
   {
-    "Data_Ref": "20/07/2025 00:00",
+    "Data_Ref": "21/07/2025 00:00",
     "Data_Agendada": "21/07/2025 15:15",
     "Data_Encerramento": "21/07/2025 16:50",
     "Diretoria": "Dir.1",
@@ -8364,7 +8364,7 @@
     "ID_Pedido": "SIM-LINHA-000783"
   },
   {
-    "Data_Ref": "17/08/2025 00:00",
+    "Data_Ref": "06/08/2025 00:00",
     "Data_Agendada": "18/08/2025 15:13",
     "Data_Encerramento": "18/08/2025 17:53",
     "Diretoria": "Dir.1",
@@ -8551,7 +8551,7 @@
     "ID_Pedido": "SIM-LINHA-000797"
   },
   {
-    "Data_Ref": "31/08/2025 00:00",
+    "Data_Ref": "25/08/2025 00:00",
     "Data_Agendada": "01/09/2025 17:20",
     "Data_Encerramento": "01/09/2025 17:56",
     "Diretoria": "Dir.1",
@@ -8857,7 +8857,7 @@
     "ID_Pedido": "SIM-LINHA-000818"
   },
   {
-    "Data_Ref": "21/09/2025 00:00",
+    "Data_Ref": "22/09/2025 00:00",
     "Data_Agendada": "22/09/2025 16:42",
     "Data_Encerramento": "22/09/2025 17:38",
     "Diretoria": "Dir.1",
@@ -8959,7 +8959,7 @@
     "ID_Pedido": "SIM-LINHA-000826"
   },
   {
-    "Data_Ref": "28/09/2025 00:00",
+    "Data_Ref": "29/09/2025 00:00",
     "Data_Agendada": "29/09/2025 16:38",
     "Data_Encerramento": "29/09/2025 19:24",
     "Diretoria": "Dir.1",
@@ -9061,7 +9061,7 @@
     "ID_Pedido": "SIM-LINHA-000833"
   },
   {
-    "Data_Ref": "06/07/2025 00:00",
+    "Data_Ref": "02/07/2025 00:00",
     "Data_Agendada": "07/07/2025 15:06",
     "Data_Encerramento": "07/07/2025 17:15",
     "Diretoria": "Dir.1",
@@ -9452,7 +9452,7 @@
     "ID_Pedido": "SIM-LINHA-000867"
   },
   {
-    "Data_Ref": "10/08/2025 00:00",
+    "Data_Ref": "06/08/2025 00:00",
     "Data_Agendada": "11/08/2025 14:51",
     "Data_Encerramento": "11/08/2025 15:39",
     "Diretoria": "Dir.1",
@@ -9503,7 +9503,7 @@
     "ID_Pedido": "SIM-LINHA-000874"
   },
   {
-    "Data_Ref": "15/08/2025 00:00",
+    "Data_Ref": "04/08/2025 00:00",
     "Data_Agendada": "16/08/2025 17:21",
     "Data_Encerramento": "16/08/2025 18:59",
     "Diretoria": "Dir.1",
@@ -9758,7 +9758,7 @@
     "ID_Pedido": "SIM-LINHA-000902"
   },
   {
-    "Data_Ref": "12/09/2025 00:00",
+    "Data_Ref": "08/09/2025 00:00",
     "Data_Agendada": "13/09/2025 15:43",
     "Data_Encerramento": "13/09/2025 16:55",
     "Diretoria": "Dir.1",
@@ -9792,7 +9792,7 @@
     "ID_Pedido": "SIM-LINHA-000904"
   },
   {
-    "Data_Ref": "14/09/2025 00:00",
+    "Data_Ref": "04/09/2025 00:00",
     "Data_Agendada": "15/09/2025 15:41",
     "Data_Encerramento": "15/09/2025 16:54",
     "Diretoria": "Dir.1",
@@ -9877,7 +9877,7 @@
     "ID_Pedido": "SIM-LINHA-000910"
   },
   {
-    "Data_Ref": "20/09/2025 00:00",
+    "Data_Ref": "17/09/2025 00:00",
     "Data_Agendada": "21/09/2025 16:18",
     "Data_Encerramento": "21/09/2025 18:16",
     "Diretoria": "Dir.1",
@@ -9894,7 +9894,7 @@
     "ID_Pedido": "SIM-LINHA-000911"
   },
   {
-    "Data_Ref": "21/09/2025 00:00",
+    "Data_Ref": "22/09/2025 00:00",
     "Data_Agendada": "22/09/2025 16:49",
     "Data_Encerramento": "22/09/2025 17:32",
     "Diretoria": "Dir.1",
@@ -10234,7 +10234,7 @@
     "ID_Pedido": "SIM-LINHA-000939"
   },
   {
-    "Data_Ref": "20/07/2025 00:00",
+    "Data_Ref": "21/07/2025 00:00",
     "Data_Agendada": "21/07/2025 15:38",
     "Data_Encerramento": "21/07/2025 17:18",
     "Diretoria": "Dir.1",
@@ -10285,7 +10285,7 @@
     "ID_Pedido": "SIM-LINHA-000943"
   },
   {
-    "Data_Ref": "23/07/2025 00:00",
+    "Data_Ref": "14/07/2025 00:00",
     "Data_Agendada": "24/07/2025 17:11",
     "Data_Encerramento": "24/07/2025 18:16",
     "Diretoria": "Dir.1",
@@ -10319,7 +10319,7 @@
     "ID_Pedido": "SIM-LINHA-000945"
   },
   {
-    "Data_Ref": "27/07/2025 00:00",
+    "Data_Ref": "15/07/2025 00:00",
     "Data_Agendada": "28/07/2025 14:38",
     "Data_Encerramento": "28/07/2025 15:35",
     "Diretoria": "Dir.1",
@@ -10625,7 +10625,7 @@
     "ID_Pedido": "SIM-LINHA-000977"
   },
   {
-    "Data_Ref": "30/08/2025 00:00",
+    "Data_Ref": "25/08/2025 00:00",
     "Data_Agendada": "31/08/2025 15:03",
     "Data_Encerramento": "31/08/2025 15:29",
     "Diretoria": "Dir.1",
@@ -10897,7 +10897,7 @@
     "ID_Pedido": "SIM-LINHA-001010"
   },
   {
-    "Data_Ref": "28/09/2025 00:00",
+    "Data_Ref": "29/09/2025 00:00",
     "Data_Agendada": "29/09/2025 15:01",
     "Data_Encerramento": "29/09/2025 15:33",
     "Diretoria": "Dir.1",
@@ -11135,7 +11135,7 @@
     "ID_Pedido": "SIM-LINHA-001036"
   },
   {
-    "Data_Ref": "24/07/2025 00:00",
+    "Data_Ref": "07/07/2025 00:00",
     "Data_Agendada": "25/07/2025 14:49",
     "Data_Encerramento": "25/07/2025 15:28",
     "Diretoria": "Dir.1",
@@ -11152,7 +11152,7 @@
     "ID_Pedido": "SIM-LINHA-001037"
   },
   {
-    "Data_Ref": "26/07/2025 00:00",
+    "Data_Ref": "22/07/2025 00:00",
     "Data_Agendada": "27/07/2025 15:06",
     "Data_Encerramento": "27/07/2025 15:35",
     "Diretoria": "Dir.1",
@@ -11288,7 +11288,7 @@
     "ID_Pedido": "SIM-LINHA-001053"
   },
   {
-    "Data_Ref": "10/08/2025 00:00",
+    "Data_Ref": "11/08/2025 00:00",
     "Data_Agendada": "11/08/2025 14:49",
     "Data_Encerramento": "11/08/2025 16:11",
     "Diretoria": "Dir.1",
@@ -11407,7 +11407,7 @@
     "ID_Pedido": "SIM-LINHA-001060"
   },
   {
-    "Data_Ref": "17/08/2025 00:00",
+    "Data_Ref": "08/08/2025 00:00",
     "Data_Agendada": "18/08/2025 15:25",
     "Data_Encerramento": "18/08/2025 15:49",
     "Diretoria": "Dir.1",
@@ -11662,7 +11662,7 @@
     "ID_Pedido": "SIM-LINHA-001080"
   },
   {
-    "Data_Ref": "06/09/2025 00:00",
+    "Data_Ref": "01/09/2025 00:00",
     "Data_Agendada": "07/09/2025 17:20",
     "Data_Encerramento": "07/09/2025 18:01",
     "Diretoria": "Dir.1",
@@ -11968,7 +11968,7 @@
     "ID_Pedido": "SIM-LINHA-001102"
   },
   {
-    "Data_Ref": "28/09/2025 00:00",
+    "Data_Ref": "24/09/2025 00:00",
     "Data_Agendada": "29/09/2025 15:22",
     "Data_Encerramento": "29/09/2025 16:11",
     "Diretoria": "Dir.1",
@@ -12325,7 +12325,7 @@
     "ID_Pedido": "SIM-LINHA-001131"
   },
   {
-    "Data_Ref": "03/10/2025 00:00",
+    "Data_Ref": "01/10/2025 00:00",
     "Data_Agendada": "04/10/2025 10:53",
     "Data_Encerramento": "04/10/2025 12:25",
     "Diretoria": "Dir.1",
@@ -12461,7 +12461,7 @@
     "ID_Pedido": "SIM-LINHA-001139"
   },
   {
-    "Data_Ref": "04/10/2025 00:00",
+    "Data_Ref": "05/10/2025 00:00",
     "Data_Agendada": "05/10/2025 17:31",
     "Data_Encerramento": "05/10/2025 18:07",
     "Diretoria": "Dir.2",
@@ -12478,7 +12478,7 @@
     "ID_Pedido": "SIM-LINHA-001143"
   },
   {
-    "Data_Ref": "04/10/2025 00:00",
+    "Data_Ref": "03/10/2025 00:00",
     "Data_Agendada": "05/10/2025 13:17",
     "Data_Encerramento": "05/10/2025 15:02",
     "Diretoria": "Dir.1",
@@ -12495,7 +12495,7 @@
     "ID_Pedido": "SIM-LINHA-001144"
   },
   {
-    "Data_Ref": "04/10/2025 00:00",
+    "Data_Ref": "02/10/2025 00:00",
     "Data_Agendada": "05/10/2025 14:33",
     "Data_Encerramento": "05/10/2025 14:59",
     "Diretoria": "Dir.2",
@@ -12563,7 +12563,7 @@
     "ID_Pedido": "SIM-LINHA-001148"
   },
   {
-    "Data_Ref": "04/10/2025 00:00",
+    "Data_Ref": "01/10/2025 00:00",
     "Data_Agendada": "05/10/2025 16:53",
     "Data_Encerramento": "05/10/2025 18:29",
     "Diretoria": "Dir.1",
@@ -12614,7 +12614,7 @@
     "ID_Pedido": "SIM-LINHA-001151"
   },
   {
-    "Data_Ref": "05/10/2025 00:00",
+    "Data_Ref": "06/10/2025 00:00",
     "Data_Agendada": "06/10/2025 13:00",
     "Data_Encerramento": "06/10/2025 14:54",
     "Diretoria": "Dir.2",
@@ -12631,7 +12631,7 @@
     "ID_Pedido": "SIM-LINHA-001155"
   },
   {
-    "Data_Ref": "05/10/2025 00:00",
+    "Data_Ref": "06/10/2025 00:00",
     "Data_Agendada": "06/10/2025 16:10",
     "Data_Encerramento": "06/10/2025 17:53",
     "Diretoria": "Dir.1",
@@ -12648,7 +12648,7 @@
     "ID_Pedido": "SIM-LINHA-001156"
   },
   {
-    "Data_Ref": "05/10/2025 00:00",
+    "Data_Ref": "06/10/2025 00:00",
     "Data_Agendada": "06/10/2025 17:47",
     "Data_Encerramento": "06/10/2025 19:27",
     "Diretoria": "Dir.1",
@@ -12665,7 +12665,7 @@
     "ID_Pedido": "SIM-LINHA-001157"
   },
   {
-    "Data_Ref": "05/10/2025 00:00",
+    "Data_Ref": "06/10/2025 00:00",
     "Data_Agendada": "06/10/2025 10:00",
     "Data_Encerramento": "06/10/2025 10:21",
     "Diretoria": "Dir.2",
@@ -12682,7 +12682,7 @@
     "ID_Pedido": "SIM-LINHA-001158"
   },
   {
-    "Data_Ref": "05/10/2025 00:00",
+    "Data_Ref": "06/10/2025 00:00",
     "Data_Agendada": "06/10/2025 11:39",
     "Data_Encerramento": "06/10/2025 12:12",
     "Diretoria": "Dir.1",
@@ -12699,7 +12699,7 @@
     "ID_Pedido": "SIM-LINHA-001159"
   },
   {
-    "Data_Ref": "05/10/2025 00:00",
+    "Data_Ref": "06/10/2025 00:00",
     "Data_Agendada": "06/10/2025 15:30",
     "Data_Encerramento": "06/10/2025 17:14",
     "Diretoria": "Dir.1",
@@ -12716,7 +12716,7 @@
     "ID_Pedido": "SIM-LINHA-001160"
   },
   {
-    "Data_Ref": "05/10/2025 00:00",
+    "Data_Ref": "06/10/2025 00:00",
     "Data_Agendada": "06/10/2025 09:40",
     "Data_Encerramento": "06/10/2025 10:15",
     "Diretoria": "Dir.2",
@@ -12733,7 +12733,7 @@
     "ID_Pedido": "SIM-LINHA-001161"
   },
   {
-    "Data_Ref": "05/10/2025 00:00",
+    "Data_Ref": "06/10/2025 00:00",
     "Data_Agendada": "06/10/2025 14:06",
     "Data_Encerramento": "06/10/2025 15:23",
     "Diretoria": "Dir.1",
@@ -12784,7 +12784,7 @@
     "ID_Pedido": "SIM-LINHA-001167"
   },
   {
-    "Data_Ref": "06/10/2025 00:00",
+    "Data_Ref": "07/10/2025 00:00",
     "Data_Agendada": "07/10/2025 16:48",
     "Data_Encerramento": "07/10/2025 17:40",
     "Diretoria": "Dir.1",
@@ -12818,7 +12818,7 @@
     "ID_Pedido": "SIM-LINHA-001169"
   },
   {
-    "Data_Ref": "06/10/2025 00:00",
+    "Data_Ref": "07/10/2025 00:00",
     "Data_Agendada": "07/10/2025 16:45",
     "Data_Encerramento": "07/10/2025 19:40",
     "Diretoria": "Dir.2",
@@ -12835,7 +12835,7 @@
     "ID_Pedido": "SIM-LINHA-001170"
   },
   {
-    "Data_Ref": "06/10/2025 00:00",
+    "Data_Ref": "07/10/2025 00:00",
     "Data_Agendada": "07/10/2025 17:40",
     "Data_Encerramento": "07/10/2025 18:30",
     "Diretoria": "Dir.1",
@@ -12852,7 +12852,7 @@
     "ID_Pedido": "SIM-LINHA-001171"
   },
   {
-    "Data_Ref": "06/10/2025 00:00",
+    "Data_Ref": "07/10/2025 00:00",
     "Data_Agendada": "07/10/2025 11:18",
     "Data_Encerramento": "07/10/2025 13:11",
     "Diretoria": "Dir.2",
@@ -12903,7 +12903,7 @@
     "ID_Pedido": "SIM-LINHA-001174"
   },
   {
-    "Data_Ref": "06/10/2025 00:00",
+    "Data_Ref": "07/10/2025 00:00",
     "Data_Agendada": "07/10/2025 17:39",
     "Data_Encerramento": "07/10/2025 19:20",
     "Diretoria": "Dir.2",
@@ -12920,7 +12920,7 @@
     "ID_Pedido": "SIM-LINHA-001175"
   },
   {
-    "Data_Ref": "07/10/2025 00:00",
+    "Data_Ref": "08/10/2025 00:00",
     "Data_Agendada": "08/10/2025 17:56",
     "Data_Encerramento": "08/10/2025 19:28",
     "Diretoria": "Dir.1",
@@ -12954,7 +12954,7 @@
     "ID_Pedido": "SIM-LINHA-001180"
   },
   {
-    "Data_Ref": "07/10/2025 00:00",
+    "Data_Ref": "08/10/2025 00:00",
     "Data_Agendada": "08/10/2025 12:14",
     "Data_Encerramento": "08/10/2025 13:52",
     "Diretoria": "Dir.1",
@@ -12971,7 +12971,7 @@
     "ID_Pedido": "SIM-LINHA-001181"
   },
   {
-    "Data_Ref": "07/10/2025 00:00",
+    "Data_Ref": "08/10/2025 00:00",
     "Data_Agendada": "08/10/2025 09:09",
     "Data_Encerramento": "08/10/2025 09:55",
     "Diretoria": "Dir.1",
@@ -13022,7 +13022,7 @@
     "ID_Pedido": "SIM-LINHA-001185"
   },
   {
-    "Data_Ref": "07/10/2025 00:00",
+    "Data_Ref": "08/10/2025 00:00",
     "Data_Agendada": "08/10/2025 11:30",
     "Data_Encerramento": "08/10/2025 13:27",
     "Diretoria": "Dir.2",
@@ -13073,7 +13073,7 @@
     "ID_Pedido": "SIM-LINHA-001191"
   },
   {
-    "Data_Ref": "08/10/2025 00:00",
+    "Data_Ref": "09/10/2025 00:00",
     "Data_Agendada": "09/10/2025 17:28",
     "Data_Encerramento": "09/10/2025 19:30",
     "Diretoria": "Dir.2",
@@ -13124,7 +13124,7 @@
     "ID_Pedido": "SIM-LINHA-001194"
   },
   {
-    "Data_Ref": "08/10/2025 00:00",
+    "Data_Ref": "06/10/2025 00:00",
     "Data_Agendada": "09/10/2025 13:45",
     "Data_Encerramento": "09/10/2025 15:02",
     "Diretoria": "Dir.1",

@@ -363,8 +363,8 @@
     "Vendas_Liquidas_Periodo": 10,
     "Instalacoes_Periodo": 8,
     "Backlog_Final": 2,
-    "Media_Dias_Em_Aberto": 22.5,
-    "Maior_Idade_Dias": 26,
+    "Media_Dias_Em_Aberto": 27.5,
+    "Maior_Idade_Dias": 29,
     "Simulado": "Sim"
   },
   {
@@ -379,8 +379,8 @@
     "Vendas_Liquidas_Periodo": 13,
     "Instalacoes_Periodo": 10,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 20.67,
-    "Maior_Idade_Dias": 26,
+    "Media_Dias_Em_Aberto": 24,
+    "Maior_Idade_Dias": 29,
     "Simulado": "Sim"
   },
   {
@@ -395,8 +395,8 @@
     "Vendas_Liquidas_Periodo": 9,
     "Instalacoes_Periodo": 7,
     "Backlog_Final": 2,
-    "Media_Dias_Em_Aberto": 6.5,
-    "Maior_Idade_Dias": 13,
+    "Media_Dias_Em_Aberto": 9,
+    "Maior_Idade_Dias": 15,
     "Simulado": "Sim"
   },
   {
@@ -411,8 +411,8 @@
     "Vendas_Liquidas_Periodo": 12,
     "Instalacoes_Periodo": 10,
     "Backlog_Final": 2,
-    "Media_Dias_Em_Aberto": 6.5,
-    "Maior_Idade_Dias": 13,
+    "Media_Dias_Em_Aberto": 9,
+    "Maior_Idade_Dias": 15,
     "Simulado": "Sim"
   },
   {
@@ -427,8 +427,8 @@
     "Vendas_Liquidas_Periodo": 11,
     "Instalacoes_Periodo": 9,
     "Backlog_Final": 2,
-    "Media_Dias_Em_Aberto": 2.5,
-    "Maior_Idade_Dias": 5,
+    "Media_Dias_Em_Aberto": 6.5,
+    "Maior_Idade_Dias": 10,
     "Simulado": "Sim"
   },
   {
@@ -443,8 +443,8 @@
     "Vendas_Liquidas_Periodo": 17,
     "Instalacoes_Periodo": 15,
     "Backlog_Final": 2,
-    "Media_Dias_Em_Aberto": 16,
-    "Maior_Idade_Dias": 25,
+    "Media_Dias_Em_Aberto": 18,
+    "Maior_Idade_Dias": 29,
     "Simulado": "Sim"
   },
   {
@@ -475,8 +475,8 @@
     "Vendas_Liquidas_Periodo": 23,
     "Instalacoes_Periodo": 20,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 15.67,
-    "Maior_Idade_Dias": 25,
+    "Media_Dias_Em_Aberto": 17,
+    "Maior_Idade_Dias": 29,
     "Simulado": "Sim"
   },
   {
@@ -523,8 +523,8 @@
     "Vendas_Liquidas_Periodo": 16,
     "Instalacoes_Periodo": 13,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 16,
-    "Maior_Idade_Dias": 26,
+    "Media_Dias_Em_Aberto": 17.33,
+    "Maior_Idade_Dias": 30,
     "Simulado": "Sim"
   },
   {
@@ -571,7 +571,7 @@
     "Vendas_Liquidas_Periodo": 14,
     "Instalacoes_Periodo": 12,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 32.8,
+    "Media_Dias_Em_Aberto": 33.6,
     "Maior_Idade_Dias": 53,
     "Simulado": "Sim"
   },
@@ -587,7 +587,7 @@
     "Vendas_Liquidas_Periodo": 7,
     "Instalacoes_Periodo": 5,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 27,
+    "Media_Dias_Em_Aberto": 27.6,
     "Maior_Idade_Dias": 61,
     "Simulado": "Sim"
   },
@@ -603,7 +603,7 @@
     "Vendas_Liquidas_Periodo": 6,
     "Instalacoes_Periodo": 6,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 37.33,
+    "Media_Dias_Em_Aberto": 38.33,
     "Maior_Idade_Dias": 61,
     "Simulado": "Sim"
   },
@@ -683,7 +683,7 @@
     "Vendas_Liquidas_Periodo": 8,
     "Instalacoes_Periodo": 6,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 25.67,
+    "Media_Dias_Em_Aberto": 29.33,
     "Maior_Idade_Dias": 55,
     "Simulado": "Sim"
   },
@@ -699,7 +699,7 @@
     "Vendas_Liquidas_Periodo": 13,
     "Instalacoes_Periodo": 11,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 8,
+    "Media_Dias_Em_Aberto": 11.67,
     "Maior_Idade_Dias": 22,
     "Simulado": "Sim"
   },
@@ -715,8 +715,8 @@
     "Vendas_Liquidas_Periodo": 12,
     "Instalacoes_Periodo": 11,
     "Backlog_Final": 1,
-    "Media_Dias_Em_Aberto": 0,
-    "Maior_Idade_Dias": 0,
+    "Media_Dias_Em_Aberto": 11,
+    "Maior_Idade_Dias": 11,
     "Simulado": "Sim"
   },
   {
@@ -731,8 +731,8 @@
     "Vendas_Liquidas_Periodo": 4,
     "Instalacoes_Periodo": 3,
     "Backlog_Final": 1,
-    "Media_Dias_Em_Aberto": 15,
-    "Maior_Idade_Dias": 15,
+    "Media_Dias_Em_Aberto": 19,
+    "Maior_Idade_Dias": 19,
     "Simulado": "Sim"
   },
   {
@@ -747,7 +747,7 @@
     "Vendas_Liquidas_Periodo": 12,
     "Instalacoes_Periodo": 9,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 16.5,
+    "Media_Dias_Em_Aberto": 20.25,
     "Maior_Idade_Dias": 45,
     "Simulado": "Sim"
   },
@@ -763,7 +763,7 @@
     "Vendas_Liquidas_Periodo": 13,
     "Instalacoes_Periodo": 11,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 25.25,
+    "Media_Dias_Em_Aberto": 28,
     "Maior_Idade_Dias": 45,
     "Simulado": "Sim"
   },
@@ -779,7 +779,7 @@
     "Vendas_Liquidas_Periodo": 10,
     "Instalacoes_Periodo": 9,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 22.67,
+    "Media_Dias_Em_Aberto": 24.67,
     "Maior_Idade_Dias": 59,
     "Simulado": "Sim"
   },
@@ -795,7 +795,7 @@
     "Vendas_Liquidas_Periodo": 10,
     "Instalacoes_Periodo": 8,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 19.75,
+    "Media_Dias_Em_Aberto": 21,
     "Maior_Idade_Dias": 47,
     "Simulado": "Sim"
   },
@@ -811,7 +811,7 @@
     "Vendas_Liquidas_Periodo": 16,
     "Instalacoes_Periodo": 14,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 37,
+    "Media_Dias_Em_Aberto": 36.67,
     "Maior_Idade_Dias": 59,
     "Simulado": "Sim"
   },
@@ -827,8 +827,8 @@
     "Vendas_Liquidas_Periodo": 11,
     "Instalacoes_Periodo": 11,
     "Backlog_Final": 1,
-    "Media_Dias_Em_Aberto": 0,
-    "Maior_Idade_Dias": 0,
+    "Media_Dias_Em_Aberto": 4,
+    "Maior_Idade_Dias": 4,
     "Simulado": "Sim"
   },
   {
@@ -859,7 +859,7 @@
     "Vendas_Liquidas_Periodo": 16,
     "Instalacoes_Periodo": 15,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 29,
+    "Media_Dias_Em_Aberto": 30.33,
     "Maior_Idade_Dias": 55,
     "Simulado": "Sim"
   },
@@ -875,7 +875,7 @@
     "Vendas_Liquidas_Periodo": 6,
     "Instalacoes_Periodo": 4,
     "Backlog_Final": 2,
-    "Media_Dias_Em_Aberto": 11,
+    "Media_Dias_Em_Aberto": 16,
     "Maior_Idade_Dias": 20,
     "Simulado": "Sim"
   },
@@ -891,8 +891,8 @@
     "Vendas_Liquidas_Periodo": 14,
     "Instalacoes_Periodo": 12,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 32.25,
-    "Maior_Idade_Dias": 57,
+    "Media_Dias_Em_Aberto": 37.25,
+    "Maior_Idade_Dias": 60,
     "Simulado": "Sim"
   },
   {
@@ -907,8 +907,8 @@
     "Vendas_Liquidas_Periodo": 11,
     "Instalacoes_Periodo": 9,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 35.4,
-    "Maior_Idade_Dias": 57,
+    "Media_Dias_Em_Aberto": 39.4,
+    "Maior_Idade_Dias": 60,
     "Simulado": "Sim"
   },
   {
@@ -923,8 +923,8 @@
     "Vendas_Liquidas_Periodo": 11,
     "Instalacoes_Periodo": 12,
     "Backlog_Final": 1,
-    "Media_Dias_Em_Aberto": 44,
-    "Maior_Idade_Dias": 44,
+    "Media_Dias_Em_Aberto": 46,
+    "Maior_Idade_Dias": 46,
     "Simulado": "Sim"
   },
   {
@@ -939,8 +939,8 @@
     "Vendas_Liquidas_Periodo": 14,
     "Instalacoes_Periodo": 12,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 24.75,
-    "Maior_Idade_Dias": 44,
+    "Media_Dias_Em_Aberto": 25.5,
+    "Maior_Idade_Dias": 46,
     "Simulado": "Sim"
   },
   {
@@ -955,8 +955,8 @@
     "Vendas_Liquidas_Periodo": 14,
     "Instalacoes_Periodo": 14,
     "Backlog_Final": 2,
-    "Media_Dias_Em_Aberto": 19.5,
-    "Maior_Idade_Dias": 36,
+    "Media_Dias_Em_Aberto": 22,
+    "Maior_Idade_Dias": 41,
     "Simulado": "Sim"
   },
   {
@@ -971,8 +971,8 @@
     "Vendas_Liquidas_Periodo": 19,
     "Instalacoes_Periodo": 16,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 28.4,
-    "Maior_Idade_Dias": 56,
+    "Media_Dias_Em_Aberto": 31.4,
+    "Maior_Idade_Dias": 60,
     "Simulado": "Sim"
   },
   {
@@ -987,7 +987,7 @@
     "Vendas_Liquidas_Periodo": 25,
     "Instalacoes_Periodo": 17,
     "Backlog_Final": 9,
-    "Media_Dias_Em_Aberto": 15.33,
+    "Media_Dias_Em_Aberto": 17.67,
     "Maior_Idade_Dias": 38,
     "Simulado": "Sim"
   },
@@ -1003,8 +1003,8 @@
     "Vendas_Liquidas_Periodo": 29,
     "Instalacoes_Periodo": 24,
     "Backlog_Final": 8,
-    "Media_Dias_Em_Aberto": 26.75,
-    "Maior_Idade_Dias": 56,
+    "Media_Dias_Em_Aberto": 28.5,
+    "Maior_Idade_Dias": 60,
     "Simulado": "Sim"
   },
   {
@@ -1019,8 +1019,8 @@
     "Vendas_Liquidas_Periodo": 7,
     "Instalacoes_Periodo": 5,
     "Backlog_Final": 2,
-    "Media_Dias_Em_Aberto": 7,
-    "Maior_Idade_Dias": 14,
+    "Media_Dias_Em_Aberto": 17,
+    "Maior_Idade_Dias": 23,
     "Simulado": "Sim"
   },
   {
@@ -1035,7 +1035,7 @@
     "Vendas_Liquidas_Periodo": 14,
     "Instalacoes_Periodo": 14,
     "Backlog_Final": 2,
-    "Media_Dias_Em_Aberto": 26.5,
+    "Media_Dias_Em_Aberto": 32,
     "Maior_Idade_Dias": 53,
     "Simulado": "Sim"
   },
@@ -1051,8 +1051,8 @@
     "Vendas_Liquidas_Periodo": 19,
     "Instalacoes_Periodo": 16,
     "Backlog_Final": 6,
-    "Media_Dias_Em_Aberto": 23,
-    "Maior_Idade_Dias": 57,
+    "Media_Dias_Em_Aberto": 27,
+    "Maior_Idade_Dias": 61,
     "Simulado": "Sim"
   },
   {
@@ -1099,7 +1099,7 @@
     "Vendas_Liquidas_Periodo": 13,
     "Instalacoes_Periodo": 13,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 62.8,
+    "Media_Dias_Em_Aberto": 63.6,
     "Maior_Idade_Dias": 83,
     "Simulado": "Sim"
   },
@@ -1115,7 +1115,7 @@
     "Vendas_Liquidas_Periodo": 9,
     "Instalacoes_Periodo": 9,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 57,
+    "Media_Dias_Em_Aberto": 57.6,
     "Maior_Idade_Dias": 91,
     "Simulado": "Sim"
   },
@@ -1131,7 +1131,7 @@
     "Vendas_Liquidas_Periodo": 8,
     "Instalacoes_Periodo": 7,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 51.75,
+    "Media_Dias_Em_Aberto": 52.5,
     "Maior_Idade_Dias": 91,
     "Simulado": "Sim"
   },
@@ -1211,7 +1211,7 @@
     "Vendas_Liquidas_Periodo": 9,
     "Instalacoes_Periodo": 9,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 51,
+    "Media_Dias_Em_Aberto": 52.33,
     "Maior_Idade_Dias": 85,
     "Simulado": "Sim"
   },
@@ -1243,8 +1243,8 @@
     "Vendas_Liquidas_Periodo": 12,
     "Instalacoes_Periodo": 11,
     "Backlog_Final": 2,
-    "Media_Dias_Em_Aberto": 16.5,
-    "Maior_Idade_Dias": 17,
+    "Media_Dias_Em_Aberto": 18.5,
+    "Maior_Idade_Dias": 20,
     "Simulado": "Sim"
   },
   {
@@ -1259,8 +1259,8 @@
     "Vendas_Liquidas_Periodo": 7,
     "Instalacoes_Periodo": 5,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 22.33,
-    "Maior_Idade_Dias": 45,
+    "Media_Dias_Em_Aberto": 23.33,
+    "Maior_Idade_Dias": 49,
     "Simulado": "Sim"
   },
   {
@@ -1275,7 +1275,7 @@
     "Vendas_Liquidas_Periodo": 13,
     "Instalacoes_Periodo": 13,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 42.25,
+    "Media_Dias_Em_Aberto": 43.25,
     "Maior_Idade_Dias": 75,
     "Simulado": "Sim"
   },
@@ -1291,7 +1291,7 @@
     "Vendas_Liquidas_Periodo": 10,
     "Instalacoes_Periodo": 9,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 40,
+    "Media_Dias_Em_Aberto": 39.8,
     "Maior_Idade_Dias": 75,
     "Simulado": "Sim"
   },
@@ -1307,7 +1307,7 @@
     "Vendas_Liquidas_Periodo": 9,
     "Instalacoes_Periodo": 8,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 37.75,
+    "Media_Dias_Em_Aberto": 37.5,
     "Maior_Idade_Dias": 89,
     "Simulado": "Sim"
   },
@@ -1323,7 +1323,7 @@
     "Vendas_Liquidas_Periodo": 15,
     "Instalacoes_Periodo": 15,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 45.5,
+    "Media_Dias_Em_Aberto": 45.25,
     "Maior_Idade_Dias": 77,
     "Simulado": "Sim"
   },
@@ -1339,7 +1339,7 @@
     "Vendas_Liquidas_Periodo": 19,
     "Instalacoes_Periodo": 16,
     "Backlog_Final": 6,
-    "Media_Dias_Em_Aberto": 39.5,
+    "Media_Dias_Em_Aberto": 39.17,
     "Maior_Idade_Dias": 89,
     "Simulado": "Sim"
   },
@@ -1355,8 +1355,8 @@
     "Vendas_Liquidas_Periodo": 7,
     "Instalacoes_Periodo": 5,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 18.33,
-    "Maior_Idade_Dias": 30,
+    "Media_Dias_Em_Aberto": 21.33,
+    "Maior_Idade_Dias": 34,
     "Simulado": "Sim"
   },
   {
@@ -1371,7 +1371,7 @@
     "Vendas_Liquidas_Periodo": 12,
     "Instalacoes_Periodo": 10,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 21.33,
+    "Media_Dias_Em_Aberto": 21,
     "Maior_Idade_Dias": 62,
     "Simulado": "Sim"
   },
@@ -1387,7 +1387,7 @@
     "Vendas_Liquidas_Periodo": 15,
     "Instalacoes_Periodo": 14,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 50,
+    "Media_Dias_Em_Aberto": 52.5,
     "Maior_Idade_Dias": 85,
     "Simulado": "Sim"
   },
@@ -1403,7 +1403,7 @@
     "Vendas_Liquidas_Periodo": 7,
     "Instalacoes_Periodo": 5,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 25.5,
+    "Media_Dias_Em_Aberto": 28,
     "Maior_Idade_Dias": 50,
     "Simulado": "Sim"
   },
@@ -1419,8 +1419,8 @@
     "Vendas_Liquidas_Periodo": 8,
     "Instalacoes_Periodo": 8,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 62.25,
-    "Maior_Idade_Dias": 87,
+    "Media_Dias_Em_Aberto": 67.25,
+    "Maior_Idade_Dias": 90,
     "Simulado": "Sim"
   },
   {
@@ -1435,8 +1435,8 @@
     "Vendas_Liquidas_Periodo": 12,
     "Instalacoes_Periodo": 11,
     "Backlog_Final": 6,
-    "Media_Dias_Em_Aberto": 54.5,
-    "Maior_Idade_Dias": 87,
+    "Media_Dias_Em_Aberto": 57.83,
+    "Maior_Idade_Dias": 90,
     "Simulado": "Sim"
   },
   {
@@ -1451,8 +1451,8 @@
     "Vendas_Liquidas_Periodo": 4,
     "Instalacoes_Periodo": 3,
     "Backlog_Final": 2,
-    "Media_Dias_Em_Aberto": 47.5,
-    "Maior_Idade_Dias": 74,
+    "Media_Dias_Em_Aberto": 48.5,
+    "Maior_Idade_Dias": 76,
     "Simulado": "Sim"
   },
   {
@@ -1467,8 +1467,8 @@
     "Vendas_Liquidas_Periodo": 8,
     "Instalacoes_Periodo": 7,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 46.8,
-    "Maior_Idade_Dias": 74,
+    "Media_Dias_Em_Aberto": 47.4,
+    "Maior_Idade_Dias": 76,
     "Simulado": "Sim"
   },
   {
@@ -1483,8 +1483,8 @@
     "Vendas_Liquidas_Periodo": 15,
     "Instalacoes_Periodo": 14,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 33,
-    "Maior_Idade_Dias": 66,
+    "Media_Dias_Em_Aberto": 34.67,
+    "Maior_Idade_Dias": 71,
     "Simulado": "Sim"
   },
   {
@@ -1499,8 +1499,8 @@
     "Vendas_Liquidas_Periodo": 19,
     "Instalacoes_Periodo": 18,
     "Backlog_Final": 6,
-    "Media_Dias_Em_Aberto": 52.83,
-    "Maior_Idade_Dias": 86,
+    "Media_Dias_Em_Aberto": 55.67,
+    "Maior_Idade_Dias": 90,
     "Simulado": "Sim"
   },
   {
@@ -1515,7 +1515,7 @@
     "Vendas_Liquidas_Periodo": 20,
     "Instalacoes_Periodo": 19,
     "Backlog_Final": 10,
-    "Media_Dias_Em_Aberto": 40.2,
+    "Media_Dias_Em_Aberto": 41.7,
     "Maior_Idade_Dias": 68,
     "Simulado": "Sim"
   },
@@ -1531,8 +1531,8 @@
     "Vendas_Liquidas_Periodo": 30,
     "Instalacoes_Periodo": 28,
     "Backlog_Final": 10,
-    "Media_Dias_Em_Aberto": 46.9,
-    "Maior_Idade_Dias": 86,
+    "Media_Dias_Em_Aberto": 47.7,
+    "Maior_Idade_Dias": 90,
     "Simulado": "Sim"
   },
   {
@@ -1547,8 +1547,8 @@
     "Vendas_Liquidas_Periodo": 13,
     "Instalacoes_Periodo": 10,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 19.6,
-    "Maior_Idade_Dias": 44,
+    "Media_Dias_Em_Aberto": 23.2,
+    "Maior_Idade_Dias": 53,
     "Simulado": "Sim"
   },
   {
@@ -1563,7 +1563,7 @@
     "Vendas_Liquidas_Periodo": 15,
     "Instalacoes_Periodo": 11,
     "Backlog_Final": 6,
-    "Media_Dias_Em_Aberto": 25.5,
+    "Media_Dias_Em_Aberto": 27.83,
     "Maior_Idade_Dias": 83,
     "Simulado": "Sim"
   },
@@ -1579,8 +1579,8 @@
     "Vendas_Liquidas_Periodo": 20,
     "Instalacoes_Periodo": 17,
     "Backlog_Final": 9,
-    "Media_Dias_Em_Aberto": 38.89,
-    "Maior_Idade_Dias": 87,
+    "Media_Dias_Em_Aberto": 42.22,
+    "Maior_Idade_Dias": 91,
     "Simulado": "Sim"
   },
   {
@@ -1627,7 +1627,7 @@
     "Vendas_Liquidas_Periodo": 9,
     "Instalacoes_Periodo": 7,
     "Backlog_Final": 7,
-    "Media_Dias_Em_Aberto": 52,
+    "Media_Dias_Em_Aberto": 52.57,
     "Maior_Idade_Dias": 93,
     "Simulado": "Sim"
   },
@@ -1643,7 +1643,7 @@
     "Vendas_Liquidas_Periodo": 3,
     "Instalacoes_Periodo": 3,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 67,
+    "Media_Dias_Em_Aberto": 67.6,
     "Maior_Idade_Dias": 101,
     "Simulado": "Sim"
   },
@@ -1659,7 +1659,7 @@
     "Vendas_Liquidas_Periodo": 6,
     "Instalacoes_Periodo": 5,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 50.4,
+    "Media_Dias_Em_Aberto": 50.8,
     "Maior_Idade_Dias": 101,
     "Simulado": "Sim"
   },
@@ -1675,7 +1675,7 @@
     "Vendas_Liquidas_Periodo": 10,
     "Instalacoes_Periodo": 7,
     "Backlog_Final": 7,
-    "Media_Dias_Em_Aberto": 26.57,
+    "Media_Dias_Em_Aberto": 26.43,
     "Maior_Idade_Dias": 62,
     "Simulado": "Sim"
   },
@@ -1739,7 +1739,7 @@
     "Vendas_Liquidas_Periodo": 8,
     "Instalacoes_Periodo": 7,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 46.25,
+    "Media_Dias_Em_Aberto": 47.25,
     "Maior_Idade_Dias": 95,
     "Simulado": "Sim"
   },
@@ -1755,7 +1755,7 @@
     "Vendas_Liquidas_Periodo": 3,
     "Instalacoes_Periodo": 3,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 36,
+    "Media_Dias_Em_Aberto": 35.67,
     "Maior_Idade_Dias": 62,
     "Simulado": "Sim"
   },
@@ -1771,8 +1771,8 @@
     "Vendas_Liquidas_Periodo": 7,
     "Instalacoes_Periodo": 5,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 14.25,
-    "Maior_Idade_Dias": 27,
+    "Media_Dias_Em_Aberto": 15.25,
+    "Maior_Idade_Dias": 30,
     "Simulado": "Sim"
   },
   {
@@ -1787,8 +1787,8 @@
     "Vendas_Liquidas_Periodo": 3,
     "Instalacoes_Periodo": 3,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 32.33,
-    "Maior_Idade_Dias": 55,
+    "Media_Dias_Em_Aberto": 33.33,
+    "Maior_Idade_Dias": 59,
     "Simulado": "Sim"
   },
   {
@@ -1803,7 +1803,7 @@
     "Vendas_Liquidas_Periodo": 5,
     "Instalacoes_Periodo": 5,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 52.25,
+    "Media_Dias_Em_Aberto": 53.25,
     "Maior_Idade_Dias": 85,
     "Simulado": "Sim"
   },
@@ -1819,7 +1819,7 @@
     "Vendas_Liquidas_Periodo": 5,
     "Instalacoes_Periodo": 6,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 60,
+    "Media_Dias_Em_Aberto": 59.75,
     "Maior_Idade_Dias": 85,
     "Simulado": "Sim"
   },
@@ -1835,7 +1835,7 @@
     "Vendas_Liquidas_Periodo": 2,
     "Instalacoes_Periodo": 3,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 60.33,
+    "Media_Dias_Em_Aberto": 60,
     "Maior_Idade_Dias": 99,
     "Simulado": "Sim"
   },
@@ -1851,7 +1851,7 @@
     "Vendas_Liquidas_Periodo": 5,
     "Instalacoes_Periodo": 2,
     "Backlog_Final": 7,
-    "Media_Dias_Em_Aberto": 33.57,
+    "Media_Dias_Em_Aberto": 33.43,
     "Maior_Idade_Dias": 87,
     "Simulado": "Sim"
   },
@@ -1867,7 +1867,7 @@
     "Vendas_Liquidas_Periodo": 10,
     "Instalacoes_Periodo": 7,
     "Backlog_Final": 9,
-    "Media_Dias_Em_Aberto": 33.33,
+    "Media_Dias_Em_Aberto": 33.11,
     "Maior_Idade_Dias": 99,
     "Simulado": "Sim"
   },
@@ -1883,8 +1883,8 @@
     "Vendas_Liquidas_Periodo": 1,
     "Instalacoes_Periodo": 1,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 28.33,
-    "Maior_Idade_Dias": 40,
+    "Media_Dias_Em_Aberto": 31.33,
+    "Maior_Idade_Dias": 44,
     "Simulado": "Sim"
   },
   {
@@ -1899,7 +1899,7 @@
     "Vendas_Liquidas_Periodo": 3,
     "Instalacoes_Periodo": 2,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 22,
+    "Media_Dias_Em_Aberto": 21.75,
     "Maior_Idade_Dias": 72,
     "Simulado": "Sim"
   },
@@ -1915,7 +1915,7 @@
     "Vendas_Liquidas_Periodo": 4,
     "Instalacoes_Periodo": 2,
     "Backlog_Final": 6,
-    "Media_Dias_Em_Aberto": 40.67,
+    "Media_Dias_Em_Aberto": 42.33,
     "Maior_Idade_Dias": 95,
     "Simulado": "Sim"
   },
@@ -1931,7 +1931,7 @@
     "Vendas_Liquidas_Periodo": 2,
     "Instalacoes_Periodo": 3,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 44,
+    "Media_Dias_Em_Aberto": 47.33,
     "Maior_Idade_Dias": 60,
     "Simulado": "Sim"
   },
@@ -1947,8 +1947,8 @@
     "Vendas_Liquidas_Periodo": 3,
     "Instalacoes_Periodo": 3,
     "Backlog_Final": 4,
-    "Media_Dias_Em_Aberto": 72.25,
-    "Maior_Idade_Dias": 97,
+    "Media_Dias_Em_Aberto": 77.25,
+    "Maior_Idade_Dias": 100,
     "Simulado": "Sim"
   },
   {
@@ -1963,8 +1963,8 @@
     "Vendas_Liquidas_Periodo": 2,
     "Instalacoes_Periodo": 2,
     "Backlog_Final": 6,
-    "Media_Dias_Em_Aberto": 63,
-    "Maior_Idade_Dias": 97,
+    "Media_Dias_Em_Aberto": 66.33,
+    "Maior_Idade_Dias": 100,
     "Simulado": "Sim"
   },
   {
@@ -1979,8 +1979,8 @@
     "Vendas_Liquidas_Periodo": 4,
     "Instalacoes_Periodo": 3,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 41.33,
-    "Maior_Idade_Dias": 84,
+    "Media_Dias_Em_Aberto": 42,
+    "Maior_Idade_Dias": 86,
     "Simulado": "Sim"
   },
   {
@@ -1995,8 +1995,8 @@
     "Vendas_Liquidas_Periodo": 7,
     "Instalacoes_Periodo": 5,
     "Backlog_Final": 7,
-    "Media_Dias_Em_Aberto": 41.86,
-    "Maior_Idade_Dias": 84,
+    "Media_Dias_Em_Aberto": 42.29,
+    "Maior_Idade_Dias": 86,
     "Simulado": "Sim"
   },
   {
@@ -2011,8 +2011,8 @@
     "Vendas_Liquidas_Periodo": 10,
     "Instalacoes_Periodo": 10,
     "Backlog_Final": 3,
-    "Media_Dias_Em_Aberto": 40.67,
-    "Maior_Idade_Dias": 76,
+    "Media_Dias_Em_Aberto": 42.33,
+    "Maior_Idade_Dias": 81,
     "Simulado": "Sim"
   },
   {
@@ -2027,8 +2027,8 @@
     "Vendas_Liquidas_Periodo": 4,
     "Instalacoes_Periodo": 3,
     "Backlog_Final": 7,
-    "Media_Dias_Em_Aberto": 54.86,
-    "Maior_Idade_Dias": 96,
+    "Media_Dias_Em_Aberto": 57.29,
+    "Maior_Idade_Dias": 100,
     "Simulado": "Sim"
   },
   {
@@ -2043,7 +2043,7 @@
     "Vendas_Liquidas_Periodo": 5,
     "Instalacoes_Periodo": 5,
     "Backlog_Final": 10,
-    "Media_Dias_Em_Aberto": 50.2,
+    "Media_Dias_Em_Aberto": 51.7,
     "Maior_Idade_Dias": 78,
     "Simulado": "Sim"
   },
@@ -2059,8 +2059,8 @@
     "Vendas_Liquidas_Periodo": 7,
     "Instalacoes_Periodo": 5,
     "Backlog_Final": 12,
-    "Media_Dias_Em_Aberto": 47.92,
-    "Maior_Idade_Dias": 96,
+    "Media_Dias_Em_Aberto": 48.58,
+    "Maior_Idade_Dias": 100,
     "Simulado": "Sim"
   },
   {
@@ -2075,8 +2075,8 @@
     "Vendas_Liquidas_Periodo": 4,
     "Instalacoes_Periodo": 4,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 28.2,
-    "Maior_Idade_Dias": 54,
+    "Media_Dias_Em_Aberto": 31.8,
+    "Maior_Idade_Dias": 63,
     "Simulado": "Sim"
   },
   {
@@ -2091,7 +2091,7 @@
     "Vendas_Liquidas_Periodo": 2,
     "Instalacoes_Periodo": 3,
     "Backlog_Final": 5,
-    "Media_Dias_Em_Aberto": 40.6,
+    "Media_Dias_Em_Aberto": 43.4,
     "Maior_Idade_Dias": 93,
     "Simulado": "Sim"
   },
@@ -2107,8 +2107,8 @@
     "Vendas_Liquidas_Periodo": 8,
     "Instalacoes_Periodo": 4,
     "Backlog_Final": 13,
-    "Media_Dias_Em_Aberto": 34.54,
-    "Maior_Idade_Dias": 97,
+    "Media_Dias_Em_Aberto": 36.85,
+    "Maior_Idade_Dias": 101,
     "Simulado": "Sim"
   }
 ]
