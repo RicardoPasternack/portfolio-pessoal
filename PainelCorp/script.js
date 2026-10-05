@@ -102,6 +102,27 @@ function desenharGrafico(serie) {
     area.append(svg);
 }
 
+function prepararGrafico(r,f){
+    const primeira=bases.vendas.map(v=>ModeloPainel.dataISO(v.Data_Ref)).sort()[0];
+    for(const id of ['grafico-inicio','grafico-fim']){$(id).min=primeira;$(id).max=r.corte;}
+    const fim=r.fim,inicio=new Date(Date.parse(fim)-14*86400000).toISOString().slice(0,10);
+    $('grafico-inicio').value=inicio<primeira?primeira:inicio;$('grafico-fim').value=fim;
+    $('grafico-regiao').replaceChildren();$('grafico-regiao').add(new Option('Todas as regiões',''));
+    for(const codigo of ModeloPainel.opcoes(bases,f,'Regiao'))$('grafico-regiao').add(new Option(nomeDimensao('Regiao',codigo),codigo));
+    $('grafico-regiao').value=f.Regiao||'';atualizarGrafico();
+}
+function atualizarGrafico(){
+    const de=$('grafico-inicio').value,ate=$('grafico-fim').value;
+    if(!de||!ate||de>ate||de<$('grafico-inicio').min||ate>$('grafico-fim').max){$('grafico-erro').textContent='Selecione um período válido dentro das datas disponíveis.';return;}
+    $('grafico-erro').textContent='';
+    const f={...filtros(),Regiao:$('grafico-regiao').value||filtros().Regiao};
+    const meses=[...new Set(bases.vendas.map(v=>ModeloPainel.dataISO(v.Data_Ref).slice(0,7)))].sort();
+    const serie=meses.flatMap(mes=>ModeloPainel.serie(bases,{...f,mes})).filter(d=>d.dia>=de&&d.dia<=ate);
+    const alcance=['Diretoria','Empresa','Regiao'].filter(c=>f[c]).map(c=>nomeDimensao(c,f[c])).join(' · ')||'Grande São Paulo';
+    const data=v=>v.split('-').reverse().join('/');
+    $('abrangencia-grafico').textContent=`${alcance} · ${data(de)} — ${data(ate)} · ${exibir(serie.reduce((s,d)=>s+d.liquidas,0))} vendas líquidas · ${exibir(serie.reduce((s,d)=>s+d.instalacoes,0))} instalações`;
+    desenharGrafico(serie);
+}
 function renderizar() {
     const f=filtros();const r=ModeloPainel.calcular(bases,f);
     const valores={meta:r.meta,'vendas-brutas':r.brutas,cancelamentos:r.cancelamentos,backlog:r.backlog,'vendas-liquidas':r.liquidas,instalacoes:r.instalacoes};
@@ -115,7 +136,7 @@ function renderizar() {
     const abrangencia=['Diretoria','Empresa','Regiao'].filter(campo=>f[campo]).map(campo=>nomeDimensao(campo,f[campo])).join(' · ')||'Grande São Paulo';
     $('total-regioes').replaceChildren();linhaTabela($('total-regioes'),abrangencia,r);
     $('abrangencia-grafico').textContent=`${abrangencia} · ${exibir(r.liquidas)} vendas líquidas · ${exibir(r.instalacoes)} instalações`;
-    desenharGrafico(ModeloPainel.serie(bases,f));
+    prepararGrafico(r,f);
     $('status').className='';$('status').textContent=`Dados até ${dataBR(r.corte)}. Filtros aplicados a todos os indicadores.`;
     if(!r.brutas&&!r.cancelamentos&&!r.instalacoes)$('status').textContent+=' Sem movimentação neste período.';
 }
@@ -175,4 +196,7 @@ $('alternar-regioes').addEventListener('click',()=>{
     $('alternar-regioes').setAttribute('aria-expanded',String(!tabela.hidden));
     $('alternar-regioes').textContent=tabela.hidden?'Mostrar regiões':'Ocultar regiões';
 });
+$('grafico-aplicar').addEventListener('click',atualizarGrafico);
+$('grafico-regiao').addEventListener('change',atualizarGrafico);
+$('grafico-ultimos').addEventListener('click',()=>prepararGrafico(ModeloPainel.calcular(bases,filtros()),filtros()));
 carregarDados();

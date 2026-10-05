@@ -14,8 +14,9 @@ async function testar(api,publicado=false) {
   return {ok:true,json:async()=>dados[path.basename(url,'.json')]};
  }};
  vm.createContext(context);vm.runInContext(fs.readFileSync(path.join(root,'script.js'),'utf8').replace(/carregarDados\(\);\s*$/,'globalThis.concluido=carregarDados();'),context);await context.concluido;
- assert.equal(erros.length,0);assert.equal(elements['vendas-liquidas'].textContent,'153');assert.equal(elements.backlog.textContent,'172');assert.equal(elements['linhas-regioes'].children.length,11);assert.equal(elements['linhas-dias'].children.length,10);
+ assert.equal(erros.length,0);assert.equal(elements['vendas-liquidas'].textContent,'153');assert.equal(elements.backlog.textContent,'172');assert.equal(elements['linhas-regioes'].children.length,11);assert.equal(elements['linhas-dias'].children.length,15);
  assert.match(elements['abrangencia-grafico'].textContent,/Grande São Paulo/);
+ elements['grafico-inicio'].value='2025-10-01';elements['grafico-fim'].value='2025-10-03';elements['grafico-regiao'].value='Reg 1';elements['grafico-aplicar'].handlers.click();assert.equal(elements['linhas-dias'].children.length,3);assert.equal(elements['vendas-liquidas'].textContent,'153');elements['grafico-inicio'].value='2025-10-04';elements['grafico-aplicar'].handlers.click();assert.match(elements['grafico-erro'].textContent,/período válido/);
  elements['alternar-regioes'].handlers.click();assert.equal(elements['tabela-regioes'].hidden,true);
  elements['alternar-regioes'].handlers.click();assert.equal(elements['tabela-regioes'].hidden,false);
  elements.Diretoria.value='Dir.1';elements.Diretoria.handlers.change();assert.ok(elements['linhas-regioes'].children.length<11);

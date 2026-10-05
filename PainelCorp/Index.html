@@ -47,6 +47,8 @@
 <section class="quadro-grafico" aria-labelledby="titulo-grafico">
 <div class="titulo-secao"><div><h2 id="titulo-grafico">Vendas líquidas e instalações por dia</h2><p class="nota" id="abrangencia-grafico"></p></div><div class="legenda"><span class="liquidas">Vendas líquidas</span><span class="instaladas">Instalações</span></div></div>
 
+<div class="calendario-controles"><label>De<input type="date" id="grafico-inicio"></label><label>Até<input type="date" id="grafico-fim"></label><label>Região<select id="grafico-regiao"></select></label><button type="button" id="grafico-aplicar">Aplicar período</button><button type="button" id="grafico-ultimos">Últimos 15 dias</button></div>
+<p id="grafico-erro" role="status"></p>
 <div class="area-grafico" id="grafico"></div>
 <details><summary>Ver os valores diários em tabela</summary><div class="tabela-regioes"><table><thead><tr><th scope="col">Dia</th><th scope="col">Vendas líquidas</th><th scope="col">Instalações</th></tr></thead><tbody id="linhas-dias"></tbody></table></div></details>
 </section>
