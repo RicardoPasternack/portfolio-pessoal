@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel de Vendas e Instalações</title>
+<link rel="stylesheet" href="style.css">
+<script src="cenario.js" defer></script><script src="modelo.js" defer></script><script src="script.js" defer></script>
+</head>
+<body>
+<div class="cinema" aria-hidden="true"><img class="cinema-cena" src="imagens/camera-digital-azul.png" alt="" fetchpriority="high" decoding="async"><div id="numeros-cenario" class="numeros-cenario"></div></div>
+
+<a class="pular" href="#conteudo">Pular para os indicadores</a>
+<header class="cabecalho">
+  <a class="marca" href="#">RP <span>INTELIGÊNCIA OPERACIONAL</span></a>
+  <div class="acoes"><button id="trocar-fundo" type="button">Escolher foto de fundo</button><button id="remover-fundo" type="button" hidden>Remover foto</button><input id="foto-fundo" type="file" accept="image/jpeg,image/png,image/webp" hidden></div>
+</header>
+<main id="conteudo">
+<section class="abertura"><div><h1>Painel de Vendas e Instalações</h1></div><div class="selo"><span class="ponto"></span>Base simulada<span id="fonte">Carregando dados…</span></div></section>
+<section class="filtros" aria-label="Filtros do painel">
+<label>Período<select id="mes" disabled></select></label>
+<label>Diretoria<select id="Diretoria" disabled><option value="">Todas</option></select></label>
+<label>Empresa<select id="Empresa" disabled><option value="">Todas</option></select></label>
+<label>Região<select id="Regiao" disabled><option value="">Todas</option></select></label>
+<button id="limpar" type="button" disabled>Limpar filtros</button>
+</section>
+<p id="status" role="status" aria-live="polite">Preparando a visão da operação…</p>
+<button id="tentar" type="button" hidden>Tentar novamente</button>
+<section class="indicadores" aria-labelledby="Titulo-Indicadores">
+<div class="titulo-secao"><h2 id="Titulo-Indicadores">Visão geral</h2><span id="periodo-resumo"></span></div>
+<div class="lista-indicadores">
+<article class="indicador"><h3>Meta mensal</h3><p class="valor-indicador" id="meta">—</p><small>Produtos líquidos • meta simulada</small></article>
+<article class="indicador"><h3>Vendas brutas</h3><p class="valor-indicador" id="vendas-brutas">—</p><small>Produtos vendidos no período</small></article>
+<article class="indicador"><h3>Cancelamentos</h3><p class="valor-indicador" id="cancelamentos">—</p><small>Pela data do cancelamento</small></article>
+<article class="indicador"><h3>Backlog</h3><p class="valor-indicador" id="backlog">—</p><small>Pendências acumuladas até o corte</small></article>
+<article class="indicador destaque"><h3>Atingimento da meta</h3><p class="valor-indicador" id="meta-atingida">—</p><progress id="progresso" max="100" value="0" aria-label="Atingimento da meta"></progress></article>
+<article class="indicador destaque"><h3>Vendas líquidas</h3><p class="valor-indicador" id="vendas-liquidas">—</p><small>Brutas menos cancelamentos</small></article>
+<article class="indicador destaque"><h3>Instalações</h3><p class="valor-indicador" id="instalacoes">—</p><small>Pela data de conclusão</small></article>
+<article class="indicador"><h3>Dias de estoque</h3><p class="valor-indicador" id="dias-estoque">—</p><small>Ritmo atual, sem novas entradas</small></article>
+</div>
+<p class="nota" id="nota-saldo"></p>
+</section>
+<section class="regioes" aria-labelledby="Titulo-Regioes">
+<div class="titulo-secao"><h2 id="Titulo-Regioes">Resultados por região</h2><button id="alternar-regioes" type="button" aria-expanded="true" aria-controls="tabela-regioes">Ocultar regiões</button></div>
+<div id="tabela-regioes" class="tabela-regioes" tabindex="0" role="region" aria-label="Tabela de resultados por região"><table><thead><tr><th scope="col">Região</th><th scope="col">Vendas líquidas</th><th scope="col">Instalações</th><th scope="col">Atingimento da meta</th><th scope="col">Dias de estoque</th></tr></thead><tbody id="linhas-regioes"></tbody><tfoot id="total-regioes"></tfoot></table></div>
+</section>
+<section class="quadro-grafico" aria-labelledby="titulo-grafico">
+<div class="titulo-secao"><div><h2 id="titulo-grafico">Vendas líquidas e instalações por dia</h2><p class="nota" id="abrangencia-grafico"></p></div><div class="legenda"><span class="liquidas">Vendas líquidas</span><span class="instaladas">Instalações</span></div></div>
+
+<div class="area-grafico" id="grafico"></div>
+<details><summary>Ver os valores diários em tabela</summary><div class="tabela-regioes"><table><thead><tr><th scope="col">Dia</th><th scope="col">Vendas líquidas</th><th scope="col">Instalações</th></tr></thead><tbody id="linhas-dias"></tbody></table></div></details>
+</section>
+<section class="regioes" aria-labelledby="titulo-empresas"><div class="titulo-secao"><h2 id="titulo-empresas">Resultados por empresa</h2><span>Mesmos filtros, outra perspectiva</span></div><div class="tabela-regioes" tabindex="0" role="region" aria-label="Tabela de resultados por empresa"><table><thead><tr><th scope="col">Empresa</th><th scope="col">Vendas líquidas</th><th scope="col">Instalações</th><th scope="col">Atingimento da meta</th><th scope="col">Dias de estoque</th></tr></thead><tbody id="linhas-empresas"></tbody></table></div></section>
+
+</main><footer>Ricardo Pasternack <span>Dados demonstrativos · Operação até outubro de 2025</span></footer>
+</body></html>
+
+
+
+
+
+
+
+
+
+

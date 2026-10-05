@@ -1,0 +1,72 @@
+{
+  "Regiao": [
+    {
+      "codigo": "Reg 1",
+      "nome": "Santana"
+    },
+    {
+      "codigo": "Reg 2",
+      "nome": "Tucuruvi"
+    },
+    {
+      "codigo": "Reg 3",
+      "nome": "Vila Maria"
+    },
+    {
+      "codigo": "Reg 4",
+      "nome": "Guarulhos"
+    },
+    {
+      "codigo": "Reg 5",
+      "nome": "Mairiporã"
+    },
+    {
+      "codigo": "Reg 6",
+      "nome": "Caieiras"
+    },
+    {
+      "codigo": "Reg 7",
+      "nome": "Santo Amaro"
+    },
+    {
+      "codigo": "Reg 8",
+      "nome": "Socorro"
+    },
+    {
+      "codigo": "Reg 9",
+      "nome": "Jabaquara"
+    },
+    {
+      "codigo": "Reg 10",
+      "nome": "São Bernardo do Campo"
+    },
+    {
+      "codigo": "Reg 11",
+      "nome": "Diadema"
+    }
+  ],
+  "Empresa": [
+    {
+      "codigo": "Empresa 1",
+      "nome": "Empresa Alfa"
+    },
+    {
+      "codigo": "Empresa 2",
+      "nome": "Empresa Beta"
+    },
+    {
+      "codigo": "Empresa 3",
+      "nome": "Empresa Gama"
+    }
+  ],
+  "Diretoria": [
+    {
+      "codigo": "Dir.1",
+      "nome": "Diretoria Norte"
+    },
+    {
+      "codigo": "Dir.2",
+      "nome": "Diretoria Sul"
+    }
+  ]
+}

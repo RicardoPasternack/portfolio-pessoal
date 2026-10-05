@@ -1,0 +1,60 @@
+/* Tokens visuais: altere as cores aqui para mudar a identidade do painel. */
+:root{color-scheme:dark;--fundo:#080f18;--painel:#111e2b;--borda:#2b3b4a;--texto:#edf4f8;--suave:#a4b6c5;--verde:#a4e6bf;--azul:#84bbf5}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--texto);background:var(--fundo);line-height:1.5}
+/* A fotografia e as luzes ficam atras dos quadros opacos para manter contraste. */
+body::before{content:"";position:fixed;inset:0;z-index:-1;background-image:linear-gradient(180deg,rgba(8,15,24,.35),#080f18 85%),var(--foto,radial-gradient(ellipse at 80% 5%,#244552 0,transparent 60%));background-size:cover;background-position:center}
+a{color:inherit}button,select{font:inherit}button,select{color:var(--texto);background:#162637;border:1px solid #435568;border-radius:8px;padding:10px 14px}button{cursor:pointer}button:hover{border-color:var(--verde);background:#223b45}button:disabled,select:disabled{opacity:.55;cursor:wait}:focus-visible{outline:3px solid var(--verde);outline-offset:4px}[hidden]{display:none!important}.pular{position:absolute;left:16px;top:-80px;background:var(--painel);padding:12px;z-index:10}.pular:focus{top:12px}
+.cabecalho{max-width:1440px;margin:auto;padding:25px 40px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--borda);gap:20px}.marca{font-weight:800;font-size:25px;text-decoration:none;letter-spacing:-1px;display:flex;align-items:center;gap:20px}.marca span{font-size:10px;letter-spacing:2px;color:var(--suave);font-weight:600}.acoes{display:flex;gap:8px}.acoes button{font-size:12px}main{max-width:1440px;margin:auto;padding:0 40px 48px}.abertura{padding:52px 0 36px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px}.sobretitulo{font-size:10px;letter-spacing:2px;color:var(--verde);font-weight:700;margin:0 0 12px}h1{font-size:clamp(32px,4vw,54px);line-height:1.12;letter-spacing:-2px;margin:0}h1 span{color:var(--suave);font-weight:400}.descricao{color:var(--suave);font-size:14px;margin:18px 0 0}.selo{font-size:12px;white-space:nowrap;color:var(--verde)}.selo #fonte{display:block;color:var(--suave);font-size:11px;margin:6px 0 0}.ponto{display:inline-block;width:7px;height:7px;background:var(--verde);border-radius:50%;margin-right:8px}
+.filtros{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr auto;gap:16px;padding:20px;background:#101c29;border:1px solid var(--borda);border-radius:12px;align-items:end}.filtros label{display:grid;gap:6px;font-size:11px;color:var(--suave);text-transform:uppercase;letter-spacing:1px}.filtros select{width:100%;min-width:0;font-size:13px;letter-spacing:0}.filtros button{font-size:12px}#status{font-size:12px;color:var(--suave);min-height:18px;margin:12px 0 28px}#status.erro{color:#ffb7b7}.titulo-secao{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:16px}.titulo-secao h2{font-size:19px;letter-spacing:-.4px;margin:0}.titulo-secao>span{font-size:12px;color:var(--suave)}
+/* Quatro colunas no desktop; as regras abaixo reduzem a grade no celular. */
+.lista-indicadores{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.indicador{background:linear-gradient(140deg,#172634,#111c29);border:1px solid var(--borda);border-radius:12px;padding:23px 16px;text-align:center;min-height:153px}.indicador h3{font-size:12px;font-weight:500;color:var(--suave);margin:0}.valor-indicador{font-size:36px;line-height:1.2;font-weight:650;letter-spacing:-1.5px;margin:14px 0 10px;font-variant-numeric:tabular-nums}.indicador small{color:var(--suave);font-size:10px}.destaque .valor-indicador{color:var(--verde)}progress{width:65%;height:5px;accent-color:var(--verde)}.nota{font-size:12px;color:var(--suave);margin:14px 0}.regioes,.quadro-grafico{margin-top:35px}.tabela-regioes{overflow-x:auto;background:#101c29;border:1px solid var(--borda);border-radius:12px}table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}th,td{padding:13px 20px;border-bottom:1px solid #243545;text-align:right;white-space:nowrap}th:first-child{text-align:left}thead{background:#192b3b;color:var(--suave);font-size:11px}tbody th{font-weight:500}tbody tr:hover{background:#1a2e3c}tbody tr:last-child>*{border-bottom:0}tfoot{font-weight:700;background:#1c3040}.positivo{color:var(--verde)}.negativo{color:#ffb7b7}
+.quadro-grafico{padding:26px;border:1px solid var(--borda);border-radius:12px;background:#101c29}
+.legenda{display:flex;align-items:center;flex-wrap:wrap;gap:20px;font-size:12px;color:var(--suave)}
+.legenda span{display:inline-flex;align-items:center;gap:8px}
+.legenda span::before{content:"";display:inline-block;width:12px;height:12px;border-radius:2px}
+.legenda .liquidas::before{background:#168bff}
+.legenda .instaladas::before{width:22px;height:0;border-top:2px dashed #66c7ff;border-radius:0}
+/* Largura mínima evita textos minúsculos; no celular o gráfico pode ser rolado. */
+.area-grafico{margin:24px 0 8px;min-height:280px;overflow-x:auto;scrollbar-width:thin;scrollbar-color:#435568 transparent}
+.area-grafico svg{display:block;width:100%;min-width:760px;height:auto;max-height:440px}
+.area-grafico text{fill:var(--suave);font:12px Segoe UI,Arial,sans-serif;font-variant-numeric:tabular-nums}
+.area-grafico .unidade-grafico{fill:#8299ac;font-size:11px}
+.area-grafico .grade{stroke:#293b4b;stroke-width:1;stroke-dasharray:3 5}
+.area-grafico .eixo-zero{stroke:#526576;stroke-dasharray:none}
+.area-grafico .area-liquidas{fill:url(#gradiente-vendas)}
+.area-grafico .faixa-dia{fill:transparent}
+.area-grafico .cursor-dia{stroke:#7694af;stroke-width:1;stroke-dasharray:3 4;opacity:0}
+.area-grafico .linha{fill:none;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.area-grafico .linha-liquidas{stroke:#168bff}
+.area-grafico .linha-instalacoes{stroke:#66c7ff;stroke-dasharray:7 4}
+.area-grafico .ponto-liquidas{fill:#168bff;stroke:#101c29;stroke-width:1.5}
+.area-grafico .ponto-instalacoes{fill:#101c29;stroke:#66c7ff;stroke-width:1.5}
+.area-grafico .tooltip-grafico{visibility:hidden;pointer-events:none}
+.area-grafico .tooltip-grafico rect{fill:#0a1d33;stroke:#3b6584;stroke-width:1}
+.area-grafico .tooltip-grafico text{fill:#edf4f8;font-size:12px}
+.area-grafico .tooltip-grafico .tooltip-data{fill:#93aabd;font-size:11px}
+.area-grafico .dia-grafico:hover .tooltip-grafico,.area-grafico .dia-grafico:focus .tooltip-grafico{visibility:visible}
+.area-grafico .dia-grafico:hover .cursor-dia,.area-grafico .dia-grafico:focus .cursor-dia{opacity:1}
+.vazia{padding:40px;text-align:center;color:var(--suave)}summary{cursor:pointer;color:var(--suave);font-size:12px;padding:12px 0}.metodologia{margin-top:26px;border-top:1px solid var(--borda)}.metodologia p{font-size:13px;color:var(--suave);max-width:950px}footer{max-width:1440px;margin:auto;padding:24px 40px;border-top:1px solid var(--borda);display:flex;justify-content:space-between;font-size:12px;color:var(--suave)}
+@media(max-width:1000px){.filtros{grid-template-columns:repeat(2,minmax(0,1fr))}.lista-indicadores{grid-template-columns:repeat(2,minmax(0,1fr))}.abertura{align-items:flex-start}.marca span{display:none}}
+@media(max-width:600px){main{padding:0 16px 28px}.cabecalho{padding:18px 16px}.abertura{padding:32px 0;display:block}.selo{margin-top:22px}.filtros{padding:14px;gap:12px}.filtros button{grid-column:1/-1}.indicador{padding:20px 10px}.valor-indicador{font-size:30px}.titulo-secao{align-items:flex-start;flex-direction:column;gap:8px}.quadro-grafico{padding:16px}.legenda{gap:12px}th,td{padding:12px}.acoes button{font-size:10px;padding:8px}.marca{font-size:22px}footer{padding:20px 16px;gap:15px;flex-direction:column}}
+@media(max-width:360px){.lista-indicadores,.filtros{grid-template-columns:1fr}}
+#alternar-regioes{font-size:12px;padding:8px 12px}#tabela-regioes:not([hidden]){animation:abrir-regioes .2s ease-out}@keyframes abrir-regioes{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}@media(prefers-reduced-motion:reduce){#tabela-regioes:not([hidden]){animation:none}}
+
+/* Três cenas de segurança residencial acompanham o percurso completo. */
+body::before{display:none}.cabecalho,main,footer{position:relative;z-index:1}
+.cinema{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0;background:#07121c}
+.cinema-cena{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.04);transform-origin:center;will-change:transform,opacity}
+.cinema-cena:first-child{opacity:1}.cinema::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#06101d55 0%,#06101d77 42%,#06101dbb 100%)}
+.abertura{min-height:48vh;align-items:flex-end;padding-bottom:40px}.abertura h1{text-shadow:0 2px 22px #000b;font-size:clamp(30px,4vw,52px);max-width:700px}.cabecalho{background:#07121c66}.selo{background:#07121cd9;padding:12px;border-radius:10px}.titulo-secao{padding-top:12px;text-shadow:0 1px 8px #000}.nota,#status{background:#08131dde;padding:12px 16px;border-radius:8px}.indicador{transition:border-color .2s ease,box-shadow .2s ease}.indicador:hover{border-color:#527a89;box-shadow:0 8px 24px #0003}
+body.foto-personalizada .cinema{visibility:hidden}body.foto-personalizada::before{display:block;position:fixed;inset:0;z-index:0;transform:none;background-image:linear-gradient(#07121c55,#07121caa),var(--foto);background-size:cover;background-position:center;pointer-events:none}
+@media(max-width:600px){.abertura{min-height:40vh}.cinema-cena{object-position:60% center}}
+@media(prefers-reduced-motion:reduce){.cinema-cena{transform:none!important;will-change:auto}.indicador{transition:none}}
+
+/* Uma única cena, com números decorativos em planos independentes. */
+.cinema-cena{transform-origin:68% 48%}.numeros-cenario{position:absolute;inset:0;overflow:hidden}.numero-cenario{position:absolute;color:#55cfff;font-family:Consolas,monospace;font-weight:600;letter-spacing:.12em;text-shadow:0 0 12px #0078ca;white-space:nowrap;opacity:.32}.cinema::after{background:linear-gradient(90deg,#04102088,#04102033),linear-gradient(180deg,#04102011,#04102099)}@media(max-width:600px){.numero-cenario:nth-child(n+13){display:none}}
+
+/* Passagem pela lente: imagem exterior cede a um túnel óptico decorativo. */
+.tunel-optico{position:absolute;inset:0;opacity:0;background:radial-gradient(ellipse at center,#031321 0%,#051c34 28%,#020811 75%);z-index:-1}.numeros-cenario{isolation:isolate}.tunel-optico i{position:absolute;left:50%;top:50%;width:65vmin;height:65vmin;border:2px solid #148edf;border-radius:50%;box-shadow:0 0 22px #1178b855,inset 0 0 18px #32baff33;border-left-color:#7adfff;border-bottom-color:#0b315e}.numero-cenario{z-index:1}@media(prefers-reduced-motion:reduce){.tunel-optico{display:none}}
+
+.nucleo-seguranca{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;clip-path:circle(0 at 50% 50%);opacity:0;transform-origin:center;will-change:transform,clip-path}.tunel-optico i{pointer-events:none}@media(prefers-reduced-motion:reduce){.nucleo-seguranca{will-change:auto}}
